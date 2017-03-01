@@ -1,14 +1,14 @@
 ```
-____ _ ____ _    ____    ____ _    ____ ____ ___ ____ ____ _  _ _ ____ ____ 
-|___ | [__  |    |__| __ |___ |    |___ |     |  |__/ |  | |\ | | |    [__  
-|___ | ___] |___ |  |    |___ |___ |___ |___  |  |  \ |__| | \| | |___ ___] 
- 
+____ _  _ _  _    ____ _    ____ ____ ___ ____ ____ _  _ _ ____ ____ 
+|___  \/  |\/| __ |___ |    |___ |     |  |__/ |  | |\ | | |    [__  
+|___ _/\_ |  |    |___ |___ |___ |___  |  |  \ |__| | \| | |___ ___] 
+                                                                      
 ```
                                                                          
                                                                          
 # Eisla electronics
 
-This repo contains all necessary files to design and produce PCBs for the Eisla product range.
+This repo contains all necessary files to design and produce PCBs for the ExMachina product range.
 
 ## File format and folder structure
 
@@ -24,7 +24,7 @@ The following are general rules to help maintain a consistent folder structure:
 
 * One board for each project folder.  
 
-* Mutiples revisions can be placed inside a subfolder. i.e. `ArmazCape/Rev A1`
+* Mutiples revisions can be placed inside a subfolder. i.e. `SwitchEthernet/Rev A1`
 
 * BOMs, partlists, spreadsheet should placed inside a `BOMs/` folder.  
 
