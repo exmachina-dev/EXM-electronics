@@ -19801,12 +19801,6 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="OC_FARNELL" value="2073348"/>
 <attribute name="OC_NEWARK" value="86T3505"/>
 </part>
-<part name="U$5" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="U$8" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -19993,11 +19987,6 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$6" library="cc-by-sa" deviceset="CC-BY-NC-SA" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
 <part name="U$7" library="cc-by-sa" deviceset="CC-BY-NC-SA" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -20368,12 +20357,6 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MPN" x="243.84" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="OC_FARNELL" x="243.84" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$5" gate="G$1" x="314.96" y="19.05">
-<attribute name="OC_NEWARK" x="314.96" y="19.05" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="314.96" y="19.05" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="314.96" y="19.05" size="1.778" layer="96" display="off"/>
-<attribute name="OC_FARNELL" x="314.96" y="19.05" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R32" gate="G$1" x="340.36" y="66.04" rot="MR90">
 <attribute name="OC_NEWARK" x="340.36" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="340.36" y="66.04" size="1.778" layer="96" display="off"/>
@@ -20514,11 +20497,6 @@ Various fiducial points for machine vision alignment.</description>
 </instance>
 <instance part="+3V10" gate="G$1" x="233.68" y="127" rot="MR0"/>
 <instance part="+3V11" gate="G$1" x="233.68" y="71.12" rot="MR0"/>
-<instance part="U$6" gate="G$1" x="307.34" y="9.144">
-<attribute name="OC_FARNELL" x="307.34" y="9.144" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="307.34" y="9.144" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="307.34" y="9.144" size="1.778" layer="96" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -21859,34 +21837,6 @@ Do not connect R30 and R31</text>
 <busses>
 </busses>
 <nets>
-<net name="RX3_ISO_P" class="0">
-<segment>
-<wire x1="157.48" y1="220.98" x2="147.32" y2="220.98" width="0.1524" layer="91"/>
-<label x="147.32" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="A" pin="RXP2"/>
-</segment>
-</net>
-<net name="RX3_ISO_N" class="0">
-<segment>
-<wire x1="157.48" y1="218.44" x2="147.32" y2="218.44" width="0.1524" layer="91"/>
-<label x="147.32" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="A" pin="RXM2"/>
-</segment>
-</net>
-<net name="TX3_ISO_N" class="0">
-<segment>
-<wire x1="238.76" y1="165.1" x2="246.38" y2="165.1" width="0.1524" layer="91"/>
-<label x="246.38" y="165.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="A" pin="TXM2"/>
-</segment>
-</net>
-<net name="TX3_ISO_P" class="0">
-<segment>
-<wire x1="238.76" y1="162.56" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
-<label x="246.38" y="162.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="A" pin="TXP2"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="RXP4"/>
@@ -22118,16 +22068,16 @@ Do not connect R30 and R31</text>
 </net>
 <net name="L3-1" class="0">
 <segment>
-<wire x1="241.3" y1="91.44" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
-<label x="251.46" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="B" pin="LED2-0"/>
+<wire x1="241.3" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
+<label x="251.46" y="99.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="B" pin="LED1-0"/>
 </segment>
 </net>
 <net name="L3-2" class="0">
 <segment>
-<wire x1="241.3" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
-<label x="251.46" y="88.9" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="B" pin="LED2-1"/>
+<wire x1="241.3" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
+<label x="251.46" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="B" pin="LED1-1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -22530,86 +22480,114 @@ Do not connect R30 and R31</text>
 </net>
 <net name="L1-1" class="0">
 <segment>
-<wire x1="241.3" y1="78.74" x2="251.46" y2="78.74" width="0.1524" layer="91"/>
-<label x="251.46" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="B" pin="LED3-0"/>
+<wire x1="241.3" y1="91.44" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
+<label x="251.46" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="B" pin="LED2-0"/>
 </segment>
 </net>
 <net name="L1-2" class="0">
 <segment>
-<wire x1="241.3" y1="76.2" x2="251.46" y2="76.2" width="0.1524" layer="91"/>
-<label x="251.46" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="B" pin="LED3-1"/>
+<wire x1="241.3" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
+<label x="251.46" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="B" pin="LED2-1"/>
 </segment>
 </net>
-<net name="L2-1" class="0">
-<segment>
-<wire x1="241.3" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
-<label x="251.46" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="B" pin="LED1-0"/>
-</segment>
-</net>
-<net name="L2-2" class="0">
-<segment>
-<wire x1="241.3" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
-<label x="251.46" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="B" pin="LED1-1"/>
-</segment>
-</net>
-<net name="RX1_ISO_P" class="0">
-<segment>
-<wire x1="157.48" y1="205.74" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
-<label x="147.32" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="A" pin="RXP3"/>
-</segment>
-</net>
-<net name="RX1_ISO_N" class="0">
-<segment>
-<wire x1="157.48" y1="203.2" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
-<label x="147.32" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="A" pin="RXM3"/>
-</segment>
-</net>
-<net name="RX2_ISO_P" class="0">
-<segment>
-<wire x1="157.48" y1="231.14" x2="147.32" y2="231.14" width="0.1524" layer="91"/>
-<label x="147.32" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="A" pin="RXP1"/>
-</segment>
-</net>
-<net name="RX2_ISO_N" class="0">
-<segment>
-<wire x1="157.48" y1="228.6" x2="147.32" y2="228.6" width="0.1524" layer="91"/>
-<label x="147.32" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="A" pin="RXM1"/>
-</segment>
-</net>
-<net name="TX2_ISO_N" class="0">
-<segment>
-<wire x1="238.76" y1="160.02" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
-<label x="246.38" y="160.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="A" pin="TXM1"/>
-</segment>
-</net>
-<net name="TX2_ISO_P" class="0">
+<net name="TX3_ISO_P" class="0">
 <segment>
 <wire x1="238.76" y1="157.48" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
 <label x="246.38" y="157.48" size="1.27" layer="95" xref="yes"/>
 <pinref part="U3" gate="A" pin="TXP1"/>
 </segment>
 </net>
+<net name="TX3_ISO_N" class="0">
+<segment>
+<wire x1="238.76" y1="160.02" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
+<label x="246.38" y="160.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="A" pin="TXM1"/>
+</segment>
+</net>
+<net name="RX2_ISO_P" class="0">
+<segment>
+<wire x1="157.48" y1="205.74" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
+<label x="147.32" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="RXP3"/>
+</segment>
+</net>
+<net name="RX2_ISO_N" class="0">
+<segment>
+<wire x1="157.48" y1="203.2" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
+<label x="147.32" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="RXM3"/>
+</segment>
+</net>
+<net name="RX3_ISO_P" class="0">
+<segment>
+<wire x1="157.48" y1="231.14" x2="147.32" y2="231.14" width="0.1524" layer="91"/>
+<label x="147.32" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="RXP1"/>
+</segment>
+</net>
+<net name="RX3_ISO_N" class="0">
+<segment>
+<wire x1="157.48" y1="228.6" x2="147.32" y2="228.6" width="0.1524" layer="91"/>
+<label x="147.32" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="RXM1"/>
+</segment>
+</net>
+<net name="TX1_ISO_P" class="0">
+<segment>
+<wire x1="238.76" y1="162.56" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
+<label x="246.38" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="A" pin="TXP2"/>
+</segment>
+</net>
 <net name="TX1_ISO_N" class="0">
+<segment>
+<wire x1="238.76" y1="165.1" x2="246.38" y2="165.1" width="0.1524" layer="91"/>
+<label x="246.38" y="165.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="A" pin="TXM2"/>
+</segment>
+</net>
+<net name="TX2_ISO_P" class="0">
+<segment>
+<wire x1="238.76" y1="170.18" x2="246.38" y2="170.18" width="0.1524" layer="91"/>
+<label x="246.38" y="170.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="A" pin="TXP3"/>
+</segment>
+</net>
+<net name="TX2_ISO_N" class="0">
 <segment>
 <wire x1="238.76" y1="172.72" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
 <label x="246.38" y="172.72" size="1.27" layer="95" xref="yes"/>
 <pinref part="U3" gate="A" pin="TXM3"/>
 </segment>
 </net>
-<net name="TX1_ISO_P" class="0">
+<net name="RX1_ISO_P" class="0">
 <segment>
-<wire x1="238.76" y1="170.18" x2="246.38" y2="170.18" width="0.1524" layer="91"/>
-<label x="246.38" y="170.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="A" pin="TXP3"/>
+<wire x1="157.48" y1="220.98" x2="147.32" y2="220.98" width="0.1524" layer="91"/>
+<label x="147.32" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="RXP2"/>
+</segment>
+</net>
+<net name="RX1_ISO_N" class="0">
+<segment>
+<wire x1="157.48" y1="218.44" x2="147.32" y2="218.44" width="0.1524" layer="91"/>
+<label x="147.32" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="A" pin="RXM2"/>
+</segment>
+</net>
+<net name="L2-1" class="0">
+<segment>
+<wire x1="241.3" y1="78.74" x2="251.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="251.46" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="B" pin="LED3-0"/>
+</segment>
+</net>
+<net name="L2-2" class="0">
+<segment>
+<wire x1="241.3" y1="76.2" x2="251.46" y2="76.2" width="0.1524" layer="91"/>
+<label x="251.46" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="B" pin="LED3-1"/>
 </segment>
 </net>
 </nets>
