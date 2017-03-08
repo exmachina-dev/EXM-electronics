@@ -13917,6 +13917,8 @@ Source: www.neutrik.com/... 210_291701.pdf</description>
 <wire x1="7.875" y1="-10.89" x2="7.875" y2="10.89" width="0.127" layer="21"/>
 <wire x1="7.875" y1="10.89" x2="-7.875" y2="10.89" width="0.127" layer="21"/>
 <wire x1="-7.875" y1="10.89" x2="-7.875" y2="-10.89" width="0.127" layer="21"/>
+<rectangle x1="-8.89" y1="-10.795" x2="8.89" y2="10.795" layer="39"/>
+<rectangle x1="-8.89" y1="-10.795" x2="8.89" y2="10.795" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -14220,8 +14222,8 @@ Source: www.neutrik.com/... 210_291701.pdf</description>
 <wire x1="6.35" y1="-3.555" x2="5.08" y2="-3.555" width="0.127" layer="21"/>
 <wire x1="6.35" y1="3.555" x2="5.08" y2="3.555" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="-3.555" x2="-6.35" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="-1.27" x2="-5.08" y2="0" width="0.127" layer="51" curve="90"/>
-<wire x1="-5.08" y1="0" x2="-6.35" y2="1.27" width="0.127" layer="51" curve="90"/>
+<wire x1="-6.35" y1="-1.27" x2="-5.08" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-5.08" y1="0" x2="-6.35" y2="1.27" width="0.127" layer="21" curve="90"/>
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="3.555" width="0.127" layer="51"/>
 <wire x1="-6.35" y1="3.555" x2="6.35" y2="3.555" width="0.127" layer="51"/>
 <wire x1="6.35" y1="3.555" x2="6.35" y2="-3.555" width="0.127" layer="51"/>
@@ -21756,7 +21758,7 @@ Do not connect R30 and R31</text>
 <wire x1="318.262" y1="175.26" x2="318.262" y2="24.384" width="0.6096" layer="94"/>
 <text x="345.44" y="167.64" size="1.6764" layer="94">EEPROM</text>
 <text x="325.12" y="119.38" size="1.6764" layer="94">SPI</text>
-<text x="345.44" y="88.9" size="1.6764" layer="94">EEPROM/SPI CONFIGURATION</text>
+<text x="322.58" y="88.9" size="1.6764" layer="94">EEPROM/SPI CONFIGURATION</text>
 <wire x1="39.116" y1="131.572" x2="4.064" y2="131.572" width="0.6096" layer="94"/>
 <text x="22.86" y="127" size="2.54" layer="94">RESET</text>
 </plain>
