@@ -19344,6 +19344,8 @@ Various fiducial points for machine vision alignment.</description>
 <part name="J2" library="con-hirose" deviceset="DF17(?)-20DP-0.5V(57)" device="2.0"/>
 <part name="J3" library="con-hirose" deviceset="DF17(?)-20DP-0.5V(57)" device="4.0"/>
 <part name="J4" library="con-molex" deviceset="22-?-05" device="05-7058"/>
+<part name="GND30" library="supply1" deviceset="GND" device=""/>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19831,6 +19833,8 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="J3" gate="-13" x="167.64" y="60.96" rot="MR0"/>
 <instance part="J3" gate="-12" x="167.64" y="58.42" rot="MR0"/>
 <instance part="J3" gate="-11" x="167.64" y="55.88" rot="MR0"/>
+<instance part="GND30" gate="1" x="132.08" y="50.8" rot="MR0"/>
+<instance part="GND31" gate="1" x="175.26" y="50.8" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -20109,6 +20113,18 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="162.56" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND30" gate="1" pin="GND"/>
+<pinref part="J2" gate="-11" pin="P"/>
+<wire x1="132.08" y1="53.34" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J3" gate="-11" pin="P"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="172.72" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="55.88" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L3-1" class="0">
