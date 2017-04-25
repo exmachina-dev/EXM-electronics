@@ -14111,7 +14111,7 @@ Source: www.neutrik.com/... 210_291701.pdf</description>
 <text x="19.05" y="-13.462" size="1.524" layer="94">7</text>
 <text x="19.05" y="-16.002" size="1.524" layer="94">8</text>
 <text x="-17.78" y="39.37" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-1.397" y="-6.223" size="1.016" layer="94" rot="R90">75R</text>
 <text x="2.413" y="-6.35" size="1.016" layer="94" rot="R90">75R</text>
 <text x="8.89" y="-6.223" size="1.016" layer="94">75R</text>
@@ -14169,6 +14169,7 @@ Source: www.neutrik.com/... 210_291701.pdf</description>
 <pin name="R6" x="-20.32" y="-15.24" length="short" direction="in"/>
 <pin name="CT" x="-20.32" y="-5.08" length="short" direction="in"/>
 <pin name="R5" x="-20.32" y="-12.7" length="short" direction="in"/>
+<pin name="P$1" x="-12.7" y="-40.64" visible="pad" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14185,6 +14186,7 @@ Source: www.neutrik.com/... 210_291701.pdf</description>
 <connect gate="G$1" pin="L2" pad="L2"/>
 <connect gate="G$1" pin="L3" pad="L3"/>
 <connect gate="G$1" pin="L4" pad="L4"/>
+<connect gate="G$1" pin="P$1" pad="S1 S2"/>
 <connect gate="G$1" pin="R4" pad="R4"/>
 <connect gate="G$1" pin="R5" pad="R5"/>
 <connect gate="G$1" pin="R6" pad="R6"/>
