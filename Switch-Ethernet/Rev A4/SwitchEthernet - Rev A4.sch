@@ -13291,6 +13291,12 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="AGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+5V" prefix="P+">
@@ -13336,6 +13342,19 @@ Source: Comchip CGRM4001-G.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND" prefix="AGND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VR1" symbol="AGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -19348,6 +19367,9 @@ Various fiducial points for machine vision alignment.</description>
 <part name="J4" library="con-molex" deviceset="22-?-05" device="05-7058"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
+<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND2" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19837,6 +19859,9 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="J3" gate="-11" x="167.64" y="55.88" rot="MR0"/>
 <instance part="GND30" gate="1" x="132.08" y="50.8" rot="MR0"/>
 <instance part="GND31" gate="1" x="175.26" y="50.8" rot="MR0"/>
+<instance part="AGND1" gate="VR1" x="30.48" y="10.16"/>
+<instance part="AGND2" gate="VR1" x="30.48" y="78.74"/>
+<instance part="AGND3" gate="VR1" x="287.02" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -20754,20 +20779,6 @@ Various fiducial points for machine vision alignment.</description>
 <label x="299.72" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="C47" gate="G$1" pin="1"/>
-<pinref part="X2" gate="G$1" pin="G"/>
-<wire x1="20.32" y1="22.86" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="G"/>
-<pinref part="C46" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="116.84" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+1V8" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="VOUT"/>
@@ -20865,6 +20876,33 @@ Various fiducial points for machine vision alignment.</description>
 <label x="177.8" y="91.44" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <wire x1="177.8" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="J3" gate="-6" pin="P"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="AGND3" gate="VR1" pin="AGND"/>
+<pinref part="P1" gate="G$1" pin="P$1"/>
+<wire x1="287.02" y1="157.48" x2="287.02" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="G"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="116.84" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+<wire x1="20.32" y1="99.06" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="99.06" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
+<junction x="20.32" y="99.06"/>
+</segment>
+<segment>
+<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="X2" gate="G$1" pin="G"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="12.7" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<junction x="20.32" y="27.94"/>
 </segment>
 </net>
 </nets>
