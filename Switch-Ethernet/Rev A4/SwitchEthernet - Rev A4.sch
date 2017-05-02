@@ -17150,6 +17150,65 @@ Various fiducial points for machine vision alignment.</description>
 </library>
 <library name="con-hirose">
 <packages>
+<package name="DF17-20DS">
+<smd name="16" x="-0.25" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="17" x="-0.75" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="18" x="-1.25" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="19" x="-1.75" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="20" x="-2.25" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="15" x="0.25" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="14" x="0.75" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="13" x="1.25" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="12" x="1.75" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="11" x="2.25" y="2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="10" x="-2.25" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="-1.75" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="-1.25" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="-0.75" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="-0.25" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="5" x="0.25" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="4" x="0.75" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="2" x="1.75" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="1" x="2.25" y="-2.65" dx="1" dy="0.25" layer="1" rot="R90"/>
+<hole x="-3.5" y="-1.9" drill="0.6"/>
+<hole x="3.5" y="-1.9" drill="0.6"/>
+<text x="-4" y="3.5" size="0.3048" layer="25">&gt;NAME</text>
+<text x="3.5" y="-3.5" size="0.3048" layer="27" align="top-right">&gt;VALUE</text>
+<circle x="4.5" y="-3.25" radius="0.25" width="0.5" layer="51"/>
+<smd name="G1" x="4.5" y="0" dx="2.1" dy="1.4" layer="1" rot="R90"/>
+<smd name="G2" x="-4.5" y="0" dx="2.1" dy="1.4" layer="1" rot="R90"/>
+<wire x1="3.35" y1="-1.35" x2="3.35" y2="1.35" width="0.127" layer="51"/>
+<wire x1="3.35" y1="1.35" x2="2.8" y2="1.9" width="0.127" layer="51"/>
+<wire x1="2.8" y1="1.9" x2="-2.8" y2="1.9" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="1.9" x2="-3.35" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="1.35" x2="-3.35" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="-1.35" x2="-2.8" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-1.9" x2="2.8" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="2.8" y1="-1.9" x2="3.35" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="-5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="2.5" x2="-5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-5" y1="1.25" x2="-5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-5" y1="-1.25" x2="-5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-2.5" x2="5" y2="-1.25" width="0.127" layer="21"/>
+<polygon width="0.4" layer="41">
+<vertex x="-3.2825" y="-1.6325"/>
+<vertex x="3.2825" y="-1.6325"/>
+<vertex x="3.2825" y="1.6325"/>
+<vertex x="-3.2825" y="1.6325"/>
+</polygon>
+<wire x1="5" y1="-1.25" x2="5" y2="1.25" width="0.127" layer="51"/>
+<wire x1="5" y1="1.25" x2="5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1" x2="2.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.127" layer="51"/>
+</package>
 <package name="DF17-20DP">
 <smd name="15" x="-0.25" y="2.65" dx="1.15" dy="0.25" layer="1" rot="R90"/>
 <smd name="14" x="-0.75" y="2.65" dx="1.15" dy="0.25" layer="1" rot="R90"/>
@@ -17207,10 +17266,25 @@ Various fiducial points for machine vision alignment.</description>
 </package>
 </packages>
 <symbols>
+<symbol name="FV">
+<pin name="P" x="-5.08" y="0" visible="pad" length="middle"/>
+<wire x1="0" y1="0.254" x2="1.524" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.254" x2="0" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.524" y2="-0.254" width="0.1524" layer="94"/>
+<text x="0" y="1.524" size="1.27" layer="96">&gt;VALUE</text>
+<text x="2.54" y="0" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+</symbol>
 <symbol name="MV">
 <pin name="P" x="-5.08" y="0" visible="pad" length="middle"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
 <text x="0" y="1.524" size="1.27" layer="96">&gt;VALUE</text>
+<text x="2.54" y="0" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+</symbol>
+<symbol name="F">
+<pin name="P" x="-5.08" y="0" visible="pad" length="middle"/>
+<wire x1="0" y1="0.254" x2="1.524" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.254" x2="0" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.524" y2="-0.254" width="0.1524" layer="94"/>
 <text x="2.54" y="0" size="1.27" layer="95" align="center-left">&gt;NAME</text>
 </symbol>
 <symbol name="M">
@@ -17220,6 +17294,86 @@ Various fiducial points for machine vision alignment.</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="DF17(?)-20DS-0.5V(57)" prefix="J">
+<gates>
+<gate name="-1" symbol="FV" x="0" y="25.4" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="F" x="0" y="22.86" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="F" x="0" y="20.32" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="F" x="0" y="17.78" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="F" x="0" y="15.24" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="F" x="0" y="12.7" addlevel="always" swaplevel="1"/>
+<gate name="-7" symbol="F" x="0" y="10.16" addlevel="always" swaplevel="1"/>
+<gate name="-8" symbol="F" x="0" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name="-9" symbol="F" x="0" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-10" symbol="F" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-11" symbol="F" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-12" symbol="F" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-13" symbol="F" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-14" symbol="F" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="-15" symbol="F" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
+<gate name="-16" symbol="F" x="0" y="-12.7" addlevel="always" swaplevel="1"/>
+<gate name="-17" symbol="F" x="0" y="-15.24" addlevel="always" swaplevel="1"/>
+<gate name="-18" symbol="F" x="0" y="-17.78" addlevel="always" swaplevel="1"/>
+<gate name="-19" symbol="F" x="0" y="-20.32" addlevel="always" swaplevel="1"/>
+<gate name="-20" symbol="F" x="0" y="-22.86" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="3.0" package="DF17-20DS">
+<connects>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-10" pin="P" pad="10"/>
+<connect gate="-11" pin="P" pad="11"/>
+<connect gate="-12" pin="P" pad="12"/>
+<connect gate="-13" pin="P" pad="13"/>
+<connect gate="-14" pin="P" pad="14"/>
+<connect gate="-15" pin="P" pad="15"/>
+<connect gate="-16" pin="P" pad="16"/>
+<connect gate="-17" pin="P" pad="17"/>
+<connect gate="-18" pin="P" pad="18"/>
+<connect gate="-19" pin="P" pad="19"/>
+<connect gate="-2" pin="P" pad="2"/>
+<connect gate="-20" pin="P" pad="20"/>
+<connect gate="-3" pin="P" pad="3"/>
+<connect gate="-4" pin="P" pad="4"/>
+<connect gate="-5" pin="P" pad="5"/>
+<connect gate="-6" pin="P" pad="6"/>
+<connect gate="-7" pin="P" pad="7"/>
+<connect gate="-8" pin="P" pad="8"/>
+<connect gate="-9" pin="P" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.0" package="DF17-20DS">
+<connects>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-10" pin="P" pad="10"/>
+<connect gate="-11" pin="P" pad="11"/>
+<connect gate="-12" pin="P" pad="12"/>
+<connect gate="-13" pin="P" pad="13"/>
+<connect gate="-14" pin="P" pad="14"/>
+<connect gate="-15" pin="P" pad="15"/>
+<connect gate="-16" pin="P" pad="16"/>
+<connect gate="-17" pin="P" pad="17"/>
+<connect gate="-18" pin="P" pad="18"/>
+<connect gate="-19" pin="P" pad="19"/>
+<connect gate="-2" pin="P" pad="2"/>
+<connect gate="-20" pin="P" pad="20"/>
+<connect gate="-3" pin="P" pad="3"/>
+<connect gate="-4" pin="P" pad="4"/>
+<connect gate="-5" pin="P" pad="5"/>
+<connect gate="-6" pin="P" pad="6"/>
+<connect gate="-7" pin="P" pad="7"/>
+<connect gate="-8" pin="P" pad="8"/>
+<connect gate="-9" pin="P" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="DF17(?)-20DP-0.5V(57)" prefix="J">
 <gates>
 <gate name="-1" symbol="MV" x="0" y="25.4" addlevel="always" swaplevel="1"/>
@@ -17997,7 +18151,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
-<part name="J2" library="con-hirose" deviceset="DF17(?)-20DP-0.5V(57)" device="2.0"/>
+<part name="J2" library="con-hirose" deviceset="DF17(?)-20DS-0.5V(57)" device="4.0"/>
 <part name="J3" library="con-hirose" deviceset="DF17(?)-20DP-0.5V(57)" device="4.0"/>
 <part name="J4" library="con-molex" deviceset="22-?-05" device="05-7058"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
