@@ -193,11 +193,8 @@ Rev A4</text>
 <wire x1="6" y1="67" x2="5" y2="66" width="0" layer="20" curve="90"/>
 <wire x1="5" y1="10" x2="10" y2="5" width="0" layer="20" curve="90"/>
 <wire x1="67" y1="6" x2="68" y2="5" width="0" layer="20" curve="90"/>
-<wire x1="68" y1="5" x2="71.92893125" y2="5" width="0" layer="20"/>
-<wire x1="71.92893125" y1="5" x2="75.464465625" y2="6.464465625" width="0" layer="20" curve="45"/>
-<wire x1="75.464465625" y1="6.464465625" x2="79.535534375" y2="10.535534375" width="0" layer="20"/>
-<wire x1="79.535534375" y1="10.535534375" x2="81" y2="14.07106875" width="0" layer="20" curve="45"/>
-<wire x1="81" y1="14.07106875" x2="81" y2="19" width="0" layer="20"/>
+<wire x1="68" y1="5" x2="72" y2="5" width="0" layer="20"/>
+<wire x1="81" y1="14" x2="81" y2="19" width="0" layer="20"/>
 <wire x1="81" y1="19" x2="80" y2="20" width="0" layer="20" curve="90"/>
 <wire x1="25" y1="84" x2="26" y2="85" width="0" layer="20" curve="-90"/>
 <wire x1="26" y1="85" x2="64" y2="85" width="0" layer="20"/>
@@ -317,6 +314,7 @@ Rev A4</text>
 </polygon>
 <text x="8.785" y="50.955" size="1.016" layer="21" rot="SR270">+5V
 500mA</text>
+<wire x1="81" y1="14" x2="72" y2="5" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl">
