@@ -268,14 +268,6 @@ Rev A4</text>
 <dimension x1="10" y1="62" x2="12" y2="83" x3="-11.5" y3="72.5" textsize="1.778" layer="48" dtype="vertical"/>
 <dimension x1="10.5" y1="25" x2="12.5" y2="7" x3="-13.5" y3="16" textsize="1.778" layer="48" dtype="vertical"/>
 <dimension x1="64" y1="7" x2="72" y2="30" x3="99.5" y3="18.5" textsize="1.778" layer="48" dtype="vertical"/>
-<polygon width="0.4064" layer="42">
-<vertex x="3.81" y="41.91"/>
-<vertex x="83.82" y="41.91"/>
-<vertex x="83.82" y="9.525"/>
-<vertex x="83.82" y="2.54"/>
-<vertex x="19.05" y="2.54"/>
-<vertex x="3.81" y="2.54"/>
-</polygon>
 <wire x1="61" y1="41" x2="62" y2="42" width="0" layer="20" curve="90"/>
 <wire x1="62" y1="42" x2="61" y2="43" width="0" layer="20" curve="90"/>
 <wire x1="64" y1="42" x2="65" y2="41" width="0" layer="20" curve="90"/>
@@ -306,12 +298,6 @@ Rev A4</text>
 <dimension x1="7" y1="80" x2="79" y2="75.757359375" x3="43" y3="98" textsize="1.778" layer="48" dtype="horizontal"/>
 <dimension x1="7" y1="10" x2="25" y2="23" x3="16" y3="-14.5" textsize="1.778" layer="48" dtype="horizontal"/>
 <dimension x1="59" y1="22.5" x2="79" y2="24" x3="69" y3="-14.5" textsize="1.778" layer="48" dtype="horizontal"/>
-<polygon width="0.15" layer="41">
-<vertex x="32" y="52.75"/>
-<vertex x="45" y="52.75"/>
-<vertex x="45" y="71.25"/>
-<vertex x="32" y="71.25"/>
-</polygon>
 <text x="8.785" y="50.955" size="1.016" layer="21" rot="SR270">+5V
 500mA</text>
 <wire x1="81" y1="14" x2="72" y2="5" width="0" layer="20"/>
@@ -5655,6 +5641,20 @@ Your Eurocircuits Team
 <contactref element="F1" pad="1"/>
 <wire x1="12.065" y1="55.11" x2="13.665" y2="55.11" width="0.4064" layer="16"/>
 <wire x1="13.665" y1="55.11" x2="15.775" y2="53" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$4">
+<polygon width="0.15" layer="1" pour="cutout">
+<vertex x="45" y="71.25"/>
+<vertex x="45" y="52.75"/>
+<vertex x="32" y="52.75"/>
+<vertex x="32" y="71.25"/>
+</polygon>
+<polygon width="0.15" layer="16" pour="cutout">
+<vertex x="32" y="71.25"/>
+<vertex x="32" y="52.75"/>
+<vertex x="45" y="52.75"/>
+<vertex x="45" y="71.25"/>
+</polygon>
 </signal>
 </signals>
 <errors>
