@@ -18342,9 +18342,9 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCNP16V106M5X11"/>
+<attribute name="MPN" value="GRM188R60J106ME47D"/>
 <attribute name="OC_FARNELL" value="2494299"/>
-<attribute name="OC_NEWARK" value="13M5149"/>
+<attribute name="OC_NEWARK" value="24R6334"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
 <attribute name="MF" value=""/>
@@ -18354,9 +18354,9 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCNP16V106M5X11"/>
+<attribute name="MPN" value="GRM188R60J106ME47D"/>
 <attribute name="OC_FARNELL" value="2494299"/>
-<attribute name="OC_NEWARK" value="13M5149"/>
+<attribute name="OC_NEWARK" value="24R6334"/>
 </part>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
 <attribute name="MF" value=""/>
@@ -18694,9 +18694,9 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="MCNP16V106M5X11"/>
+<attribute name="MPN" value="GRM188R60J106ME47D"/>
 <attribute name="OC_FARNELL" value="2494299"/>
-<attribute name="OC_NEWARK" value="13M5149"/>
+<attribute name="OC_NEWARK" value="24R6334"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
@@ -18708,9 +18708,9 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
 <part name="D2" library="diode" deviceset="1N4148WS" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="1N4148W"/>
+<attribute name="MPN" value="1N4148WS."/>
 <attribute name="OC_FARNELL" value="unknown"/>
-<attribute name="OC_NEWARK" value="01P4213"/>
+<attribute name="OC_NEWARK" value="74M5710"/>
 </part>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="1000pF, 2kV">
 <attribute name="MF" value=""/>
