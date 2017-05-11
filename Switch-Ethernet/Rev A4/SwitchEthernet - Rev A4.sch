@@ -18104,16 +18104,17 @@ Various fiducial points for machine vision alignment.</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="J1" library="con-molex" deviceset="22-?-02" device="05-7028">
-<attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-05-7028"/>
 <attribute name="OC_NEWARK" value="25M1728"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="con-neutrik_ag" deviceset="NE8" device="FAV">
+<attribute name="MF" value=""/>
 <attribute name="OC_FARNELL" value="1202031"/>
 <attribute name="OC_NEWARK" value="01M8373"/>
 </part>
 <part name="J3" library="con-neutrik_ag" deviceset="NE8" device="FAV">
+<attribute name="MF" value=""/>
 <attribute name="OC_FARNELL" value="1202031"/>
 <attribute name="OC_NEWARK" value="01M8373"/>
 </part>
@@ -18137,174 +18138,174 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="75">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X75R0FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603175R"/>
 <attribute name="OC_FARNELL" value="2073571"/>
 <attribute name="OC_NEWARK" value="58K4654"/>
 </part>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="1000pF, 2kV">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC1206B102K202CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="21T9879"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0603" value="75">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X75R0FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603175R"/>
 <attribute name="OC_FARNELL" value="2073571"/>
 <attribute name="OC_NEWARK" value="58K4654"/>
 </part>
 <part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="1000pF, 2kV">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC1206B102K202CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="21T9879"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="51">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603151R"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="58K4614"/>
 </part>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R27" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
@@ -18314,13 +18315,13 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="C13" library="rcl" deviceset="CPOL-EU" device="CT3216" value="4.7uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MCCTA475M010"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="01M8221"/>
 </part>
 <part name="C14" library="rcl" deviceset="CPOL-EU" device="CT3216" value="4.7uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MCCTA475M010"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="01M8221"/>
 </part>
@@ -18328,57 +18329,57 @@ Various fiducial points for machine vision alignment.</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C19" library="rcl" deviceset="CPOL-EU" device="CT3216" value="4.7uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MCCTA475M010"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="01M8221"/>
 </part>
 <part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
 <part name="L1" library="rcl" deviceset="L-EU" device="L4532C" value="15uH_10%">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="LQH43CN150K03L"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="74M2809"/>
 </part>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM32DR71C106KA01L"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCNP16V106M5X11"/>
 <attribute name="OC_FARNELL" value="2494299"/>
 <attribute name="OC_NEWARK" value="13M5149"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM32DR71C106KA01L"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCNP16V106M5X11"/>
 <attribute name="OC_FARNELL" value="2494299"/>
 <attribute name="OC_NEWARK" value="13M5149"/>
 </part>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="D1" library="diode" deviceset="SMAJ33A-E3/61" device="">
-<attribute name="MF" value="VISHAY"/>
-<attribute name="MPN" value="SMAJ33A-E3/5A"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="SMAJ33A-E3/61"/>
 <attribute name="OC_FARNELL" value="1812505"/>
 <attribute name="OC_NEWARK" value="08R3790"/>
 </part>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="Green">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0604"/>
 <attribute name="OC_FARNELL" value="1716771"/>
 <attribute name="OC_NEWARK" value="15R2206"/>
 </part>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1k5">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X1501FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W060311K5"/>
 <attribute name="OC_FARNELL" value="2073391"/>
 <attribute name="OC_NEWARK" value="58K4488"/>
 </part>
@@ -18386,10 +18387,10 @@ Various fiducial points for machine vision alignment.</description>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="U3" library="Micrel_By_element14_Batch_1" deviceset="KSZ8995MA" device="">
-<attribute name="MF" value="MICROCHIP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="KSZ8995MA"/>
 <attribute name="OC_FARNELL" value="2509844"/>
-<attribute name="OC_NEWARK" value="70Y9044"/>
+<attribute name="OC_NEWARK" value="10AC7950"/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
@@ -18400,106 +18401,106 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+3V313" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0603" value="10K, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603110K"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4450"/>
 </part>
 <part name="R37" library="rcl" deviceset="R-EU_" device="R0603" value="10K, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603110K"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4450"/>
 </part>
 <part name="+3V310" library="supply1" deviceset="+3V3" device=""/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R0603" value="3k01">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X3001FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0063W060313K01"/>
 <attribute name="OC_FARNELL" value="2073461"/>
 <attribute name="OC_NEWARK" value="94W5780"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C35" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C39" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C36" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
@@ -18511,26 +18512,26 @@ Various fiducial points for machine vision alignment.</description>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="crystal" deviceset="8Z" device="" technology="-25.000MHZMAAJ-T">
-<attribute name="MF" value="TXC"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="8Z-25.000MAAJ-T"/>
 <attribute name="OC_FARNELL" value="1842189"/>
 <attribute name="OC_NEWARK" value="84R5794"/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="18pF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B183K160CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603N180J500CT"/>
 <attribute name="OC_FARNELL" value="1759006"/>
 <attribute name="OC_NEWARK" value="06R5138"/>
 </part>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="18pF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B183K160CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603N180J500CT"/>
 <attribute name="OC_FARNELL" value="1759006"/>
 <attribute name="OC_NEWARK" value="06R5138"/>
 </part>
 <part name="U4" library="atmel" deviceset="AT24C02C-SSHM-B" device="">
-<attribute name="MF" value="ATMEL"/>
+<attribute name="MF" value=""/>
 <attribute name="OC_FARNELL" value="1971995"/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
@@ -18538,45 +18539,45 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="R38" library="rcl" deviceset="R-EU_" device="R0603" value="0, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0603WG00000T5E-TC"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4684"/>
 </part>
 <part name="R39" library="rcl" deviceset="R-EU_" device="R0603" value="0, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0603WG00000T5E-TC"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4684"/>
 </part>
 <part name="R40" library="rcl" deviceset="R-EU_" device="R0603" value="0, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0603WG00000T5E-TC"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4684"/>
 </part>
 <part name="R41" library="rcl" deviceset="R-EU_" device="R0603" value="0, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0603WG00000T5E-TC"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4684"/>
 </part>
 <part name="R42" library="rcl" deviceset="R-EU_" device="R0603" value="0, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0603WG00000T5E-TC"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4684"/>
 </part>
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0603" value="0, DNI">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0603WG00000T5E-TC"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="58K4684"/>
 </part>
@@ -18588,49 +18589,49 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+1V83" library="supply1" deviceset="+1V8" device=""/>
 <part name="+1V82" library="supply1" deviceset="+1V8" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="Blue">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_FARNELL" value="1716770"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1001FTL"/>
 <attribute name="OC_FARNELL" value="2073348"/>
 <attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="LED4" library="led" deviceset="LED" device="CHIP-LED0603" value="Blue">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_FARNELL" value="1716770"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1001FTL"/>
 <attribute name="OC_FARNELL" value="2073348"/>
 <attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603" value="Blue">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_FARNELL" value="1716770"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1001FTL"/>
 <attribute name="OC_FARNELL" value="2073348"/>
 <attribute name="OC_NEWARK" value="86T3505"/>
 </part>
 <part name="LED5" library="led" deviceset="LED" device="CHIP-LED0603" value="Blue">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="OVS-0603"/>
 <attribute name="OC_FARNELL" value="1716770"/>
 <attribute name="OC_NEWARK" value="15R2205"/>
 </part>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
-<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="MCMR06X1001FTL"/>
 <attribute name="OC_FARNELL" value="2073348"/>
 <attribute name="OC_NEWARK" value="86T3505"/>
@@ -18642,84 +18643,84 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0603" value="49.9">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X49R9FTL"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603SAF499JT5E"/>
 <attribute name="OC_FARNELL" value="2073520"/>
 <attribute name="OC_NEWARK" value="79M5983"/>
 </part>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MC0603B104K250CT"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MC0603B104K160CT"/>
 <attribute name="OC_FARNELL" value="1759037"/>
 <attribute name="OC_NEWARK" value="06R4923"/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="R0603" value="220">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X2200FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W06031220R"/>
 <attribute name="OC_FARNELL" value="2073428"/>
 <attribute name="OC_NEWARK" value="58K4526"/>
 </part>
 <part name="R29" library="rcl" deviceset="R-EU_" device="R0603" value="220">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X2200FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W06031220R"/>
 <attribute name="OC_FARNELL" value="2073428"/>
 <attribute name="OC_NEWARK" value="58K4526"/>
 </part>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="10uF">
-<attribute name="MF" value="MURATA"/>
-<attribute name="MPN" value="GRM32DR71C106KA01L"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="MCNP16V106M5X11"/>
 <attribute name="OC_FARNELL" value="2494299"/>
 <attribute name="OC_NEWARK" value="13M5149"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R0603" value="10K">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="MCMR06X1002FTL"/>
+<attribute name="MF" value="Multicomp Passives"/>
+<attribute name="MPN" value="MC0063W0603110K"/>
 <attribute name="OC_FARNELL" value="2073349"/>
 <attribute name="OC_NEWARK" value="58K4450"/>
 </part>
 <part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
 <part name="D2" library="diode" deviceset="1N4148WS" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="1N4148W"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="01P4213"/>
 </part>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="1000pF, 2kV">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC1206B102K202CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="21T9879"/>
 </part>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="1000pF, 2kV">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC1206B102K202CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="21T9879"/>
 </part>
@@ -18729,31 +18730,37 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="JP2" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="U1" library="microchip-6" deviceset="TC1264-3.3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="MICROCHIP"/>
+<attribute name="MPN" value="TC1264-3.3VAB"/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="92C5792"/>
 </part>
 <part name="U2" library="microchip-6" deviceset="TC1264-1.8" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MF" value="MICROCHIP"/>
+<attribute name="MPN" value="TC1264-1.8VAB"/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="92C5783"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -18761,23 +18768,27 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+1V81" library="supply1" deviceset="+1V8" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC0603B105K160CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="06X6171"/>
 </part>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC0603B105K160CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="06X6171"/>
 </part>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC0603B105K160CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="06X6171"/>
 </part>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="1uF">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="MC0603B105K160CT"/>
 <attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="06X6171"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -18787,24 +18798,72 @@ Various fiducial points for machine vision alignment.</description>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
-<part name="J4" library="con-hirose" deviceset="DF17(?)-20DS-0.5V(57)" device="4.0"/>
-<part name="J5" library="con-hirose" deviceset="DF17(?)-20DP-0.5V(57)" device="4.0"/>
+<part name="J4" library="con-hirose" deviceset="DF17(?)-20DS-0.5V(57)" device="4.0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="DF17(4.0)-20DS-0.5V(57)"/>
+<attribute name="OC_NEWARK" value="69W0567"/>
+</part>
+<part name="J5" library="con-hirose" deviceset="DF17(?)-20DP-0.5V(57)" device="4.0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="DF17(4.0)-20DP-0.5V(57)"/>
+<attribute name="OC_NEWARK" value="69W0566"/>
+</part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND4" library="supply1" deviceset="AGND" device=""/>
-<part name="MP4" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
-<part name="MP3" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
-<part name="MP2" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
-<part name="MP1" library="holes" deviceset="MOUNT-PAD" device="3,0"/>
+<part name="MP4" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MP3" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MP2" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MP1" library="holes" deviceset="MOUNT-PAD" device="3,0">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
-<part name="TP1" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="TP2" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="TP3" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="TP4" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="TP5" library="testpad" deviceset="TP" device="B1,27"/>
-<part name="F1" library="fuse2" deviceset="1812L" device="" technology="110/24DR"/>
+<part name="TP1" library="testpad" deviceset="TP" device="B1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="TP2" library="testpad" deviceset="TP" device="B1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="TP3" library="testpad" deviceset="TP" device="B1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="TP4" library="testpad" deviceset="TP" device="B1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="TP5" library="testpad" deviceset="TP" device="B1,27">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="F1" library="fuse2" deviceset="1812L" device="" technology="110/24DR">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="1812L110/24DR"/>
+<attribute name="OC_NEWARK" value="39X0319"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -19214,11 +19273,13 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="OC_FARNELL" x="167.64" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="167.64" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="167.64" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="167.64" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U2" gate="A" x="167.64" y="182.88">
 <attribute name="OC_FARNELL" x="167.64" y="182.88" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="167.64" y="182.88" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="167.64" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="167.64" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="132.08" y="165.1"/>
 <instance part="GND7" gate="1" x="132.08" y="215.9"/>
@@ -19228,21 +19289,25 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="OC_FARNELL" x="116.84" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="116.84" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="116.84" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="116.84" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="205.74" y="223.52">
 <attribute name="OC_FARNELL" x="205.74" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="205.74" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="205.74" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="205.74" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="205.74" y="172.72">
 <attribute name="OC_FARNELL" x="205.74" y="172.72" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="205.74" y="172.72" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="205.74" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="205.74" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="121.92" y="177.8">
 <attribute name="OC_FARNELL" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="205.74" y="160.02"/>
 <instance part="GND11" gate="1" x="205.74" y="210.82"/>
@@ -19252,7 +19317,11 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="+3V32" gate="G$1" x="88.9" y="60.96" rot="MR0"/>
 <instance part="+3V33" gate="G$1" x="116.84" y="116.84" rot="MR0"/>
 <instance part="+3V34" gate="G$1" x="190.5" y="116.84"/>
-<instance part="J4" gate="-1" x="139.7" y="104.14"/>
+<instance part="J4" gate="-1" x="139.7" y="104.14">
+<attribute name="OC_NEWARK" x="139.7" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="139.7" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J4" gate="-2" x="139.7" y="101.6"/>
 <instance part="J4" gate="-3" x="139.7" y="99.06"/>
 <instance part="J4" gate="-4" x="139.7" y="96.52"/>
@@ -19272,7 +19341,11 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="J4" gate="-13" x="139.7" y="60.96"/>
 <instance part="J4" gate="-12" x="139.7" y="58.42"/>
 <instance part="J4" gate="-20" x="139.7" y="55.88"/>
-<instance part="J5" gate="-1" x="167.64" y="104.14" rot="MR0"/>
+<instance part="J5" gate="-1" x="167.64" y="104.14" rot="MR0">
+<attribute name="OC_NEWARK" x="167.64" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="167.64" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="167.64" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J5" gate="-2" x="167.64" y="101.6" rot="MR0"/>
 <instance part="J5" gate="-3" x="167.64" y="99.06" rot="MR0"/>
 <instance part="J5" gate="-4" x="167.64" y="96.52" rot="MR0"/>
@@ -19297,12 +19370,32 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="AGND3" gate="VR1" x="30.48" y="10.16"/>
 <instance part="AGND2" gate="VR1" x="30.48" y="78.74"/>
 <instance part="AGND4" gate="VR1" x="287.02" y="154.94"/>
-<instance part="MP4" gate="1" x="83.82" y="149.86"/>
-<instance part="MP3" gate="1" x="60.96" y="149.86"/>
-<instance part="MP2" gate="1" x="38.1" y="149.86"/>
-<instance part="MP1" gate="1" x="15.24" y="149.86"/>
+<instance part="MP4" gate="1" x="83.82" y="149.86">
+<attribute name="OC_NEWARK" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MP3" gate="1" x="60.96" y="149.86">
+<attribute name="OC_NEWARK" x="60.96" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="60.96" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="60.96" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MP2" gate="1" x="38.1" y="149.86">
+<attribute name="OC_NEWARK" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MP1" gate="1" x="15.24" y="149.86">
+<attribute name="OC_NEWARK" x="15.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="15.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="15.24" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND1" gate="VR1" x="10.16" y="149.86"/>
-<instance part="F1" gate="G$1" x="30.48" y="228.6"/>
+<instance part="F1" gate="G$1" x="30.48" y="228.6">
+<attribute name="OC_NEWARK" x="30.48" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="30.48" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="30.48" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20640,27 +20733,51 @@ Do not connect R30 and R31</text>
 <attribute name="OC_FARNELL" x="345.44" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="345.44" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="345.44" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="345.44" y="21.59" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP2" gate="G$1" x="349.758" y="21.59">
 <attribute name="OC_FARNELL" x="349.758" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="349.758" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="349.758" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="349.758" y="21.59" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP3" gate="G$1" x="354.076" y="21.59">
 <attribute name="OC_FARNELL" x="354.076" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="354.076" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="354.076" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="354.076" y="21.59" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP4" gate="G$1" x="358.394" y="21.59">
 <attribute name="OC_FARNELL" x="358.394" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="358.394" y="21.59" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="358.394" y="21.59" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="358.394" y="21.59" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP1" gate="G$1" x="368.3" y="119.38" rot="R270"/>
-<instance part="TP2" gate="G$1" x="368.3" y="114.3" rot="R270"/>
-<instance part="TP3" gate="G$1" x="368.3" y="109.22" rot="R270"/>
-<instance part="TP4" gate="G$1" x="368.3" y="104.14" rot="R270"/>
-<instance part="TP5" gate="G$1" x="368.3" y="99.06" rot="R270"/>
+<instance part="TP1" gate="G$1" x="368.3" y="119.38" rot="R270">
+<attribute name="OC_NEWARK" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="368.3" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP2" gate="G$1" x="368.3" y="114.3" rot="R270">
+<attribute name="OC_NEWARK" x="368.3" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="368.3" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="368.3" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP3" gate="G$1" x="368.3" y="109.22" rot="R270">
+<attribute name="OC_NEWARK" x="368.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="368.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="368.3" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP4" gate="G$1" x="368.3" y="104.14" rot="R270">
+<attribute name="OC_NEWARK" x="368.3" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="368.3" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="368.3" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP5" gate="G$1" x="368.3" y="99.06" rot="R270">
+<attribute name="OC_NEWARK" x="368.3" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="368.3" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="368.3" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
