@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Adrian\Documents\ExMachina\repos\EXM\electronics\Emergecy_Stop\Rev A1\Emergency_Stop - Rev A1.sch</source>
+    <date>2017-05-16 2:00:02 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Emergency_Stop - Rev A1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>XLR3</value>
+      <footprint>Neutrix:NC3FAV2</footprint>
+      <libsource lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59195CBC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>XLR3</value>
+      <footprint>Neutrix:NC3MAV</footprint>
+      <libsource lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59195D3E</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>Connect:GS2</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919B091</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper</value>
+      <footprint>Connect:GS2</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919B148</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper</value>
+      <footprint>Connect:GS2</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919B1BC</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper</value>
+      <footprint>Connect:GS2</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919C2BC</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper</value>
+      <footprint>Connect:GS2</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591ABEBB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_1x02</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591AE332</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Jumper">
+      <description>Jumper, generic, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x02">
+      <description>2-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier2</fp>
+        <fp>TerminalBlock*2pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XLR3-RESCUE-Emergency_Stop_-_Rev_A1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="G" name="GROUND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Emergency_Stop - Rev A1-rescue">
+      <uri>C:\Users\Adrian\Documents\ExMachina\repos\EXM\electronics\Emergecy_Stop\Rev A1\Emergency_Stop - Rev A1-rescue.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND_MECA">
+      <node ref="JP4" pin="1"/>
+      <node ref="J1" pin="G"/>
+      <node ref="J2" pin="G"/>
+      <node ref="JP5" pin="1"/>
+    </net>
+    <net code="2" name="/24V_IN">
+      <node ref="J1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="3" name="/GND_IN">
+      <node ref="J1" pin="3"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="4" name="/24V_OUT">
+      <node ref="JP1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="5" name="/SIG_OUT">
+      <node ref="J2" pin="2"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="6" name="/SIG_IN">
+      <node ref="JP2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="7" name="/GND_OUT">
+      <node ref="JP5" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="JP3" pin="2"/>
+    </net>
+  </nets>
+</export>
