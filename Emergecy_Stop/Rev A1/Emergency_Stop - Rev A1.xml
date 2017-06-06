@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Adrian\Documents\ExMachina\repos\EXM\electronics\Emergecy_Stop\Rev A1\Emergency_Stop - Rev A1.sch</source>
-    <date>2017-05-16 2:00:02 PM</date>
+    <date>2017-05-24 12:14:32 PM</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,20 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J1">
-      <value>XLR3</value>
-      <footprint>Neutrix:NC3FAV2</footprint>
-      <libsource lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>59195CBC</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>XLR3</value>
-      <footprint>Neutrix:NC3MAV</footprint>
-      <libsource lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>59195D3E</tstamp>
-    </comp>
     <comp ref="JP1">
       <value>Jumper</value>
       <footprint>Connect:GS2</footprint>
@@ -68,15 +54,69 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591ABEBB</tstamp>
     </comp>
-    <comp ref="J3">
-      <value>Screw_Terminal_1x02</value>
-      <footprint>Connect:bornier2</footprint>
-      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+    <comp ref="J1">
+      <value>XLR3</value>
+      <footprint>Neutrix:NC3FAV2</footprint>
+      <libsource lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>591AE332</tstamp>
+      <tstamp>59195CBC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>XLR3</value>
+      <footprint>Neutrix:NC3MAV</footprint>
+      <libsource lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59195D3E</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>1812L110/24DR</value>
+      <footprint>Fuse:LittleFuse_1812L</footprint>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591C165B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MSTBA2.5/3</value>
+      <footprint>conn_Phoenix:MSTBA3</footprint>
+      <libsource lib="conn" part="CONN_01X03_FEMALE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591C627D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>22-05-7038</value>
+      <footprint>conn_Molex:22-05-7038</footprint>
+      <libsource lib="conn" part="CONN_01X03_FEMALE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591C6B84</tstamp>
     </comp>
   </components>
   <libparts>
+    <libpart lib="conn" part="CONN_01X03_FEMALE">
+      <description>Generic Female Connector, Single Row, 01x03, socket header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03_FEMALE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Fuse">
+      <description>Fuse, generic</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="Jumper">
       <description>Jumper, generic, normally closed</description>
       <fields>
@@ -86,21 +126,6 @@
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="Screw_Terminal_1x02">
-      <description>2-pin screw terminal connector</description>
-      <footprints>
-        <fp>bornier2</fp>
-        <fp>TerminalBlock*2pol</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Screw_Terminal_1x02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Emergency_Stop - Rev A1-rescue" part="XLR3-RESCUE-Emergency_Stop_-_Rev_A1">
@@ -117,50 +142,58 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Emergency_Stop - Rev A1-rescue">
-      <uri>C:\Users\Adrian\Documents\ExMachina\repos\EXM\electronics\Emergecy_Stop\Rev A1\Emergency_Stop - Rev A1-rescue.lib</uri>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    <library logical="Emergency_Stop - Rev A1-rescue">
+      <uri>C:\Users\Adrian\Documents\ExMachina\repos\EXM\electronics\Emergecy_Stop\Rev A1\Emergency_Stop - Rev A1-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/GND_MECA">
-      <node ref="JP4" pin="1"/>
-      <node ref="J1" pin="G"/>
-      <node ref="J2" pin="G"/>
-      <node ref="JP5" pin="1"/>
-    </net>
-    <net code="2" name="/24V_IN">
-      <node ref="J1" pin="1"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="J3" pin="1"/>
-    </net>
-    <net code="3" name="/GND_IN">
-      <node ref="J1" pin="3"/>
-      <node ref="JP3" pin="1"/>
-      <node ref="J3" pin="2"/>
+    <net code="1" name="/GND_IN">
+      <node ref="J3" pin="3"/>
       <node ref="JP4" pin="2"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J1" pin="3"/>
     </net>
-    <net code="4" name="/24V_OUT">
-      <node ref="JP1" pin="2"/>
-      <node ref="J2" pin="1"/>
+    <net code="2" name="/+24V">
+      <node ref="F1" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="1"/>
     </net>
-    <net code="5" name="/SIG_OUT">
-      <node ref="J2" pin="2"/>
-      <node ref="JP2" pin="2"/>
-    </net>
-    <net code="6" name="/SIG_IN">
+    <net code="3" name="/SIG_IN">
+      <node ref="J3" pin="2"/>
       <node ref="JP2" pin="1"/>
       <node ref="J1" pin="2"/>
+      <node ref="J4" pin="2"/>
     </net>
-    <net code="7" name="/GND_OUT">
+    <net code="4" name="/24V_IN">
+      <node ref="F1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="5" name="/GND_MECA">
+      <node ref="J1" pin="G"/>
+      <node ref="J2" pin="G"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="JP5" pin="1"/>
+    </net>
+    <net code="6" name="/GND_OUT">
       <node ref="JP5" pin="2"/>
       <node ref="J2" pin="3"/>
       <node ref="JP3" pin="2"/>
+    </net>
+    <net code="7" name="/SIG_OUT">
+      <node ref="J2" pin="2"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="8" name="/24V_OUT">
+      <node ref="J2" pin="1"/>
+      <node ref="JP1" pin="2"/>
     </net>
   </nets>
 </export>
