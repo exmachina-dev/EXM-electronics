@@ -1,8 +1,0 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"J1";"NC3FAV2";1;"XLR3";;;
-2;"JP2,JP5,JP4,JP1,JP3";"GS2";5;"Jumper";;;
-3;"REF**,REF**,REF**,REF**";"Fiducial_1mm_Dia_2.54mm_Outer_CopperTop";4;"Fiducial_1mm_Dia_2.54mm_Outer_CopperTop";;;
-4;"J2";"NC3MAV";1;"XLR3";;;
-5;"J3";"MSTBA3";1;"MSTBA2.5/3";;;
-6;"J4";"22-05-7038";1;"22-05-7038";;;
-7;"F1";"LittleFuse_1812L";1;"1812L110/24DR";;;

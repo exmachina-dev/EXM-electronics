@@ -1,0 +1,22 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"Fuse, generic",Fuse,F1,1812L110/24DR,LittleFuse_1812L,1,
+2,"Generic Female Connector, Single Row, 01x03, socket header",CONN_01X03_FEMALE,J4,22-05-7038,22-05-7038,1,
+3,"Generic Female Connector, Single Row, 01x03, socket header",CONN_01X03_FEMALE,J3,MSTBA2.5/3,MSTBA3,1,
+4,,XLR3-RESCUE-Emergency_Stop_-_Rev_A1,J1,XLR3,NC3FAV2,1,
+5,,XLR3-RESCUE-Emergency_Stop_-_Rev_A1,J2,XLR3,NC3MAV,1,
+6,"Jumper, generic, normally closed",Jumper,JP1 JP2 JP3 JP4 JP5,Jumper,GS2,5,
+
+
+
+
+
+Component Groups:,6
+Component Count:,10
+Fitted Components:,10
+Number of PCBs:,1
+Total components:,10
+Schematic Version:,
+Schematic Date:,
+BoM Date:,2017-06-09 10:55:02 AM
+Schematic Source:,C:/Users/Adrian/Documents/ExMachina/repos/EXM/electronics/Emergecy_Stop/Rev A1/Emergency_Stop - Rev A1.sch
+KiCad Version:,Eeschema 4.0.6
