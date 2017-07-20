@@ -1,4 +1,4 @@
-update=2017-07-05 11:23:42 AM
+update=2017-07-19 10:43:22 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,6 @@ LibName29=valves
 LibName30=maxim
 LibName31=infineon
 LibName32=C:/Users/Adrian/Documents/ExMachina/repos/kicad-resources/lib/Symbole/max
+LibName33=max
+LibName34=relay
+LibName35=rs485
