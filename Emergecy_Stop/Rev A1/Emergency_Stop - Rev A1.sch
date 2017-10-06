@@ -247,4 +247,6 @@ Text Label 1100 1650 0    60   ~ 0
 +24V
 Text Label 1100 900  0    60   ~ 0
 +24V
+Text Notes 4400 2200 0    60   ~ 0
+Solder JP2 and JP3
 $EndSCHEMATC
