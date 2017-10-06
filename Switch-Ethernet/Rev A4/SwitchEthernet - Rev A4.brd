@@ -4672,9 +4672,9 @@ Your Eurocircuits Team
 <attribute name="MANUFACTURER_PART_NUMBER" value="SMAJ33A-E3/61" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPERSECTION" value="Semiconductors" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Vishay" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="08R3790" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SMAJ33A-E3/61" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1812505" x="16.51" y="61.2775" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.605" y="58.7375" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="14.605" y="60.4125" size="0.4064" layer="27" rot="R90"/>
@@ -4699,9 +4699,9 @@ Your Eurocircuits Team
 <attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ksz8995ma" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="MICREL" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="10AC7950" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="KSZ8995MA" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="2509844" x="61.595" y="59.69" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="54.61" y="70.235" size="0.6096" layer="21"/>
 <attribute name="VALUE" x="55.92" y="70.235" size="0.4064" layer="27"/>
@@ -5139,20 +5139,20 @@ Your Eurocircuits Team
 <attribute name="PACKAGE" value="SOT-223-3" x="23.1775" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="23.1775" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MICROCHIP" x="23.1775" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TC1264-3.3VAB" x="23.1775" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TC1264-3.3VDB" x="23.1775" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.5075" y="48.6676" size="0.4064" layer="27" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="20.1144" y="48.6285" size="0.6096" layer="25" ratio="10" rot="SR0"/>
-<attribute name="OC_NEWARK" value="92C5792" x="23.1775" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="23.1775" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="microchip-6" package="SOT230P700X180-4N" value="TC1264-1.8" x="24.4475" y="59.055" smashed="yes" rot="R90">
 <attribute name="SUPPLIER" value="Microchip" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="SOT-223-3" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="MICROCHIP" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TC1264-1.8VAB" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TC1264-1.8VDBTR" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.8375" y="57.4776" size="0.4064" layer="27" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="21.5369" y="57.416" size="0.6096" layer="25" ratio="10" rot="SR0"/>
-<attribute name="OC_NEWARK" value="92C5783" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="92C5784" x="24.4475" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="rcl" package="C0603" value="1uF" x="18.2325" y="46.355" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" value="unknown" x="18.2325" y="46.355" size="1.778" layer="27" rot="R270" display="off"/>
