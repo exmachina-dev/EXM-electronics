@@ -128,34 +128,40 @@
 <text x="33.7" y="37.2" size="1.016" layer="22" rot="MR0" align="top-left">EXM Relay Three
 RevA1</text>
 <text x="16.5" y="39.9" size="1.016" layer="21" align="center">+24V</text>
-<text x="28.8" y="39.8" size="1.016" layer="21" align="center">SIG</text>
+<text x="28.8" y="39.8" size="1.016" layer="21" align="center">SIG1</text>
 <text x="10.9" y="39.9" size="1.016" layer="21" align="center">GND</text>
-<text x="14.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC2</text>
-<text x="12" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO2</text>
+<text x="14.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC</text>
+<text x="12" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO</text>
 <text x="18.4" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">GND</text>
-<text x="23.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC1</text>
-<text x="21" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO1</text>
+<text x="23.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC</text>
+<text x="21" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO</text>
 <text x="9.4" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">GND</text>
 <text x="33.9" y="39.8" size="1.016" layer="21" align="center">+24V</text>
 <text x="23.6" y="39.8" size="1.016" layer="21" align="center">GND</text>
-<text x="46.3" y="39.8" size="1.016" layer="21" align="center">SIG</text>
+<text x="46.3" y="39.8" size="1.016" layer="21" align="center">SIG2</text>
 <text x="51.4" y="39.8" size="1.016" layer="21" align="center">+24V</text>
 <text x="41.1" y="39.8" size="1.016" layer="21" align="center">GND</text>
-<text x="63.6" y="39.8" size="1.016" layer="21" align="center">SIG</text>
+<text x="63.6" y="39.8" size="1.016" layer="21" align="center">SIG3</text>
 <text x="68.7" y="39.8" size="1.016" layer="21" align="center">+24V</text>
 <text x="58.4" y="39.8" size="1.016" layer="21" align="center">GND</text>
-<text x="37.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC2</text>
-<text x="35" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO2</text>
+<text x="37.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC</text>
+<text x="35" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO</text>
 <text x="41.4" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">GND</text>
-<text x="46.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC1</text>
-<text x="44" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO1</text>
+<text x="46.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC</text>
+<text x="44" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO</text>
 <text x="32.4" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">GND</text>
-<text x="61.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC2</text>
-<text x="59" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO2</text>
+<text x="61.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC</text>
+<text x="59" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO</text>
 <text x="65.4" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">GND</text>
-<text x="70.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC1</text>
-<text x="68" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO1</text>
+<text x="70.6" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NC</text>
+<text x="68" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">NO</text>
 <text x="56.4" y="6.7" size="1.016" layer="21" rot="R90" align="center-left">GND</text>
+<text x="16.5" y="6" size="1.016" layer="21" rot="R90" align="center-left">O1.1</text>
+<text x="25.5" y="6" size="1.016" layer="21" rot="R90" align="center-left">O1.2</text>
+<text x="39.5" y="6" size="1.016" layer="21" rot="R90" align="center-left">O2.1</text>
+<text x="48.5" y="6" size="1.016" layer="21" rot="R90" align="center-left">O2.2</text>
+<text x="63.5" y="6" size="1.016" layer="21" rot="R90" align="center-left">O3.1</text>
+<text x="72.5" y="6" size="1.016" layer="21" rot="R90" align="center-left">O3.2</text>
 </plain>
 <libraries>
 <library name="con-phoenix-508">
@@ -3428,29 +3434,20 @@ Your Eurocircuits Team
 <wire x1="46.605" y1="32.075" x2="46.2" y2="32.48" width="0.8128" layer="1"/>
 <wire x1="46.2" y1="32.48" x2="46.2" y2="42.92" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG2_1_NO">
-<contactref element="J5" pad="2"/>
-<contactref element="K2" pad="8"/>
-<wire x1="44" y1="5" x2="44" y2="14" width="0.8128" layer="1"/>
-<wire x1="44" y1="14" x2="43" y2="15" width="0.8128" layer="1"/>
-<wire x1="43" y1="15" x2="43" y2="18" width="0.8128" layer="1"/>
-<wire x1="43" y1="18" x2="44.425" y2="19.425" width="0.8128" layer="1"/>
-<wire x1="44.425" y1="19.425" x2="46.605" y2="19.425" width="0.8128" layer="1"/>
-</signal>
-<signal name="SIG1_1_NC">
+<signal name="SIG1_2_NC">
 <contactref element="J4" pad="1"/>
 <contactref element="K1" pad="4"/>
 <wire x1="23.54" y1="5" x2="23.54" y2="13.39" width="0.8128" layer="1"/>
 <wire x1="23.54" y1="13.39" x2="21.605" y2="15.325" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG2_2_NC">
+<signal name="SIG2_1_NC">
 <contactref element="J6" pad="1"/>
 <contactref element="K2" pad="1"/>
 <wire x1="37.54" y1="5" x2="37.54" y2="13.46" width="0.8128" layer="1"/>
 <wire x1="37.54" y1="13.46" x2="35.675" y2="15.325" width="0.8128" layer="1"/>
 <wire x1="35.675" y1="15.325" x2="33.405" y2="15.325" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG2_2_NO">
+<signal name="SIG2_1_NO">
 <contactref element="J6" pad="2"/>
 <contactref element="K2" pad="5"/>
 <wire x1="33.405" y1="19.425" x2="30.425" y2="19.425" width="0.8128" layer="1"/>
@@ -3461,7 +3458,7 @@ Your Eurocircuits Team
 <wire x1="34" y1="10" x2="35" y2="9" width="0.8128" layer="1"/>
 <wire x1="35" y1="9" x2="35" y2="5" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG2_1_NC">
+<signal name="SIG2_2_NC">
 <contactref element="J5" pad="1"/>
 <contactref element="K2" pad="4"/>
 <wire x1="46.605" y1="15.325" x2="46.54" y2="15.26" width="0.8128" layer="1"/>
@@ -3474,7 +3471,7 @@ Your Eurocircuits Team
 <wire x1="25.075" y1="32.075" x2="28.8" y2="35.8" width="0.8128" layer="1"/>
 <wire x1="28.8" y1="35.8" x2="28.8" y2="42.92" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG1_1_NO">
+<signal name="SIG1_2_NO">
 <contactref element="J4" pad="2"/>
 <contactref element="K1" pad="8"/>
 <wire x1="21" y1="5" x2="21" y2="9" width="0.8128" layer="1"/>
@@ -3483,7 +3480,7 @@ Your Eurocircuits Team
 <wire x1="18" y1="18" x2="19.425" y2="19.425" width="0.8128" layer="1"/>
 <wire x1="19.425" y1="19.425" x2="21.605" y2="19.425" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG1_2_NO">
+<signal name="SIG1_1_NO">
 <contactref element="J3" pad="2"/>
 <contactref element="K1" pad="5"/>
 <wire x1="12" y1="5" x2="12" y2="9" width="0.8128" layer="1"/>
@@ -3494,34 +3491,34 @@ Your Eurocircuits Team
 <wire x1="4" y1="18" x2="5.425" y2="19.425" width="0.8128" layer="1"/>
 <wire x1="5.425" y1="19.425" x2="8.405" y2="19.425" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG1_2_NC">
+<signal name="SIG1_1_NC">
 <contactref element="J3" pad="1"/>
 <contactref element="K1" pad="1"/>
 <wire x1="8.405" y1="15.325" x2="12.675" y2="15.325" width="0.8128" layer="1"/>
 <wire x1="12.675" y1="15.325" x2="14.54" y2="13.46" width="0.8128" layer="1"/>
 <wire x1="14.54" y1="13.46" x2="14.54" y2="5" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG3_1_NC">
+<signal name="SIG3_2_NC">
 <contactref element="J8" pad="1"/>
 <contactref element="K3" pad="4"/>
 <wire x1="70.54" y1="5" x2="70.54" y2="14.26" width="0.8128" layer="1"/>
 <wire x1="70.54" y1="14.26" x2="71.605" y2="15.325" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG3_1_NO">
+<signal name="SIG3_2_NO">
 <contactref element="J8" pad="2"/>
 <contactref element="K3" pad="8"/>
 <wire x1="68" y1="5" x2="68" y2="18" width="0.8128" layer="1"/>
 <wire x1="69.425" y1="19.425" x2="71.605" y2="19.425" width="0.8128" layer="1"/>
 <wire x1="68" y1="18" x2="69.425" y2="19.425" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG3_2_NC">
+<signal name="SIG3_1_NC">
 <contactref element="J9" pad="1"/>
 <contactref element="K3" pad="1"/>
 <wire x1="61.54" y1="5" x2="61.54" y2="13.46" width="0.8128" layer="1"/>
 <wire x1="61.54" y1="13.46" x2="59.675" y2="15.325" width="0.8128" layer="1"/>
 <wire x1="59.675" y1="15.325" x2="58.405" y2="15.325" width="0.8128" layer="1"/>
 </signal>
-<signal name="SIG3_2_NO">
+<signal name="SIG3_1_NO">
 <contactref element="J9" pad="2"/>
 <contactref element="K3" pad="5"/>
 <wire x1="59" y1="5" x2="59" y2="10" width="0.8128" layer="1"/>
@@ -3655,6 +3652,15 @@ Your Eurocircuits Team
 <via x="38" y="49" extent="1-16" drill="1"/>
 <via x="10" y="49" extent="1-16" drill="1"/>
 <via x="25" y="49" extent="1-16" drill="1"/>
+</signal>
+<signal name="SIG2_2_NO">
+<contactref element="K2" pad="8"/>
+<contactref element="J5" pad="2"/>
+<wire x1="44" y1="5" x2="44" y2="14" width="0.8128" layer="1"/>
+<wire x1="44" y1="14" x2="43" y2="15" width="0.8128" layer="1"/>
+<wire x1="43" y1="15" x2="43" y2="18" width="0.8128" layer="1"/>
+<wire x1="43" y1="18" x2="44.425" y2="19.425" width="0.8128" layer="1"/>
+<wire x1="44.425" y1="19.425" x2="46.605" y2="19.425" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <errors>

@@ -2468,20 +2468,7 @@ Various fiducial points for machine vision alignment.</description>
 <label x="134.62" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SIG2_1_NO" class="0">
-<segment>
-<wire x1="27.94" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
-<label x="38.1" y="170.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="-2" pin="S"/>
-</segment>
-<segment>
-<wire x1="167.64" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
-<label x="177.8" y="144.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="K2" gate="G$2" pin="NO"/>
-<wire x1="167.64" y1="147.32" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SIG1_1_NC" class="0">
+<net name="SIG1_2_NC" class="0">
 <segment>
 <pinref part="J4" gate="-1" pin="S"/>
 <wire x1="27.94" y1="241.3" x2="38.1" y2="241.3" width="0.1524" layer="91"/>
@@ -2494,7 +2481,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="167.64" y1="223.52" x2="167.64" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIG2_2_NC" class="0">
+<net name="SIG2_1_NC" class="0">
 <segment>
 <wire x1="167.64" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
 <label x="177.8" y="137.16" size="1.27" layer="95" xref="yes"/>
@@ -2507,7 +2494,7 @@ Various fiducial points for machine vision alignment.</description>
 <label x="86.36" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SIG2_2_NO" class="0">
+<net name="SIG2_1_NO" class="0">
 <segment>
 <wire x1="167.64" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
 <label x="177.8" y="121.92" size="1.27" layer="95" xref="yes"/>
@@ -2520,7 +2507,7 @@ Various fiducial points for machine vision alignment.</description>
 <label x="86.36" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SIG2_1_NC" class="0">
+<net name="SIG2_2_NC" class="0">
 <segment>
 <pinref part="J5" gate="-1" pin="S"/>
 <wire x1="27.94" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
@@ -2546,7 +2533,7 @@ Various fiducial points for machine vision alignment.</description>
 <label x="38.1" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SIG1_1_NO" class="0">
+<net name="SIG1_2_NO" class="0">
 <segment>
 <wire x1="167.64" y1="210.82" x2="177.8" y2="210.82" width="0.1524" layer="91"/>
 <label x="177.8" y="210.82" size="1.27" layer="95" xref="yes"/>
@@ -2559,7 +2546,7 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="J4" gate="-2" pin="S"/>
 </segment>
 </net>
-<net name="SIG1_2_NO" class="0">
+<net name="SIG1_1_NO" class="0">
 <segment>
 <pinref part="J3" gate="-2" pin="S"/>
 <wire x1="76.2" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
@@ -2572,7 +2559,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="167.64" y1="190.5" x2="167.64" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIG1_2_NC" class="0">
+<net name="SIG1_1_NC" class="0">
 <segment>
 <pinref part="J3" gate="-1" pin="S"/>
 <wire x1="76.2" y1="241.3" x2="86.36" y2="241.3" width="0.1524" layer="91"/>
@@ -2585,7 +2572,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="167.64" y1="200.66" x2="167.64" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIG3_1_NC" class="0">
+<net name="SIG3_2_NC" class="0">
 <segment>
 <pinref part="J8" gate="-1" pin="S"/>
 <wire x1="27.94" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
@@ -2598,7 +2585,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="167.64" y1="93.98" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIG3_1_NO" class="0">
+<net name="SIG3_2_NO" class="0">
 <segment>
 <wire x1="27.94" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
 <label x="38.1" y="104.14" size="1.27" layer="95" xref="yes"/>
@@ -2611,7 +2598,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="167.64" y1="81.28" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIG3_2_NC" class="0">
+<net name="SIG3_1_NC" class="0">
 <segment>
 <pinref part="J9" gate="-1" pin="S"/>
 <wire x1="76.2" y1="109.22" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
@@ -2624,7 +2611,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="167.64" y1="71.12" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIG3_2_NO" class="0">
+<net name="SIG3_1_NO" class="0">
 <segment>
 <pinref part="J9" gate="-2" pin="S"/>
 <wire x1="76.2" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
@@ -2665,6 +2652,19 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="325.12" y1="40.64" x2="347.98" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="40.64" x2="347.98" y2="38.1" width="0.1524" layer="91"/>
 <junction x="325.12" y="40.64"/>
+</segment>
+</net>
+<net name="SIG2_2_NO" class="0">
+<segment>
+<wire x1="167.64" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
+<label x="177.8" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="K2" gate="G$2" pin="NO"/>
+<wire x1="167.64" y1="147.32" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="27.94" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
+<label x="38.1" y="170.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="-2" pin="S"/>
 </segment>
 </net>
 </nets>
