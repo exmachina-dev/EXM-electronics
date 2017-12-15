@@ -3382,7 +3382,7 @@ Your Eurocircuits Team
 <attribute name="MF" value="OMRON COMPONENTS USA" x="40" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="PY08" x="40" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J10" library="con-phoenix-508" package="MSTBA3" value="MSTBA3" x="63.6" y="48" smashed="yes" rot="R180">
+<element name="J9" library="con-phoenix-508" package="MSTBA3" value="MSTBA3" x="63.6" y="48" smashed="yes" rot="R180">
 <attribute name="MPN" value="1757255" x="63.6" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="63.6" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="3705183" x="63.6" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3395,7 +3395,7 @@ Your Eurocircuits Team
 <attribute name="MF" value="OMRON COMPONENTS USA" x="65" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="PY08" x="65" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J9" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="14" y="48" smashed="yes" rot="R180">
+<element name="J10" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="14" y="48" smashed="yes" rot="R180">
 <attribute name="MPN" value="1757242" x="14" y="48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="14" y="48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="3705171" x="14" y="48" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3447,13 +3447,13 @@ Your Eurocircuits Team
 <attribute name="OC_FARNELL" value="unknown" x="34.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="34.5" y="5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J7" library="con-molex" package="7395-04" value="22-05-7048-04" x="67.5" y="5">
+<element name="J8" library="con-molex" package="7395-04" value="22-05-7048-04" x="67.5" y="5">
 <attribute name="MF" value="" x="67.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="67.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="67.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="67.5" y="5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J8" library="con-molex" package="7395-04" value="22-05-7048-04" x="56.5" y="5">
+<element name="J7" library="con-molex" package="7395-04" value="22-05-7048-04" x="56.5" y="5">
 <attribute name="MF" value="" x="56.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="56.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="56.5" y="5" size="1.778" layer="27" display="off"/>
@@ -3470,8 +3470,8 @@ Your Eurocircuits Team
 <vertex x="101" y="57"/>
 </polygon>
 <contactref element="J6" pad="1"/>
-<contactref element="J10" pad="1"/>
 <contactref element="J9" pad="1"/>
+<contactref element="J10" pad="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J3" pad="3"/>
@@ -3484,15 +3484,15 @@ Your Eurocircuits Team
 </polygon>
 <contactref element="J6" pad="3"/>
 <contactref element="K2" pad="13"/>
-<contactref element="J10" pad="3"/>
+<contactref element="J9" pad="3"/>
 <contactref element="K3" pad="13"/>
-<contactref element="J9" pad="2"/>
+<contactref element="J10" pad="2"/>
 <contactref element="J2" pad="4"/>
 <contactref element="J1" pad="4"/>
 <contactref element="J5" pad="4"/>
 <contactref element="J4" pad="4"/>
-<contactref element="J7" pad="4"/>
 <contactref element="J8" pad="4"/>
+<contactref element="J7" pad="4"/>
 </signal>
 <signal name="SIG_IN_2">
 <contactref element="J6" pad="2"/>
@@ -3563,20 +3563,20 @@ Your Eurocircuits Team
 </signal>
 <signal name="SIG3_2_NC">
 <contactref element="K3" pad="4"/>
-<contactref element="J7" pad="2"/>
+<contactref element="J8" pad="2"/>
 <wire x1="68.77" y1="5" x2="68.77" y2="12.49" width="0.8128" layer="1"/>
 <wire x1="68.77" y1="12.49" x2="71.605" y2="15.325" width="0.8128" layer="1"/>
 </signal>
 <signal name="SIG3_2_NO">
 <contactref element="K3" pad="8"/>
 <wire x1="69.425" y1="19.425" x2="71.605" y2="19.425" width="0.8128" layer="1"/>
-<contactref element="J7" pad="3"/>
+<contactref element="J8" pad="3"/>
 <wire x1="66.23" y1="5" x2="66.23" y2="16.23" width="0.8128" layer="1"/>
 <wire x1="66.23" y1="16.23" x2="69.425" y2="19.425" width="0.8128" layer="1"/>
 </signal>
 <signal name="SIG3_1_NC">
 <contactref element="K3" pad="1"/>
-<contactref element="J8" pad="2"/>
+<contactref element="J7" pad="2"/>
 <wire x1="57.77" y1="5" x2="57.77" y2="14.69" width="0.8128" layer="1"/>
 <wire x1="57.77" y1="14.69" x2="58.405" y2="15.325" width="0.8128" layer="1"/>
 </signal>
@@ -3585,12 +3585,12 @@ Your Eurocircuits Team
 <wire x1="53" y1="12" x2="53" y2="18" width="0.8128" layer="1"/>
 <wire x1="53" y1="18" x2="54.425" y2="19.425" width="0.8128" layer="1"/>
 <wire x1="54.425" y1="19.425" x2="58.405" y2="19.425" width="0.8128" layer="1"/>
-<contactref element="J8" pad="3"/>
+<contactref element="J7" pad="3"/>
 <wire x1="53" y1="12" x2="55.23" y2="9.77" width="0.8128" layer="1"/>
 <wire x1="55.23" y1="9.77" x2="55.23" y2="5" width="0.8128" layer="1"/>
 </signal>
 <signal name="SIG_IN_3">
-<contactref element="J10" pad="2"/>
+<contactref element="J9" pad="2"/>
 <contactref element="K3" pad="14"/>
 <wire x1="71.605" y1="32.075" x2="64.925" y2="32.075" width="0.8128" layer="1"/>
 <wire x1="64.925" y1="32.075" x2="63.6" y2="33.4" width="0.8128" layer="1"/>
@@ -3754,7 +3754,7 @@ Your Eurocircuits Team
 </signal>
 <signal name="SIG3_2_C">
 <contactref element="K3" pad="12"/>
-<contactref element="J7" pad="1"/>
+<contactref element="J8" pad="1"/>
 <wire x1="71.31" y1="5" x2="71.31" y2="10.31" width="0.8128" layer="1"/>
 <wire x1="71.31" y1="10.31" x2="75" y2="14" width="0.8128" layer="1"/>
 <wire x1="75" y1="14" x2="75" y2="24" width="0.8128" layer="1"/>
@@ -3763,7 +3763,7 @@ Your Eurocircuits Team
 </signal>
 <signal name="SIG3_1_C">
 <contactref element="K3" pad="9"/>
-<contactref element="J8" pad="1"/>
+<contactref element="J7" pad="1"/>
 <wire x1="60.31" y1="5" x2="60.31" y2="12.31" width="0.8128" layer="1"/>
 <wire x1="60.31" y1="12.31" x2="62" y2="14" width="0.8128" layer="1"/>
 <wire x1="62" y1="14" x2="62" y2="24" width="0.8128" layer="1"/>
