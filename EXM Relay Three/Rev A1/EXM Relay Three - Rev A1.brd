@@ -3322,9 +3322,9 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="20.38" y="45.5" size="0.4064" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="K3" library="rel-omron" package="PY08" value="MY2" x="15" y="24" rot="R180">
-<attribute name="OC_NEWARK" value="96B2719" x="15" y="24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="36K3464" x="15" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="OMRON COMPONENTS USA" x="15" y="24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MY2-02-DC24" x="15" y="24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="PY08" x="15" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="CC1" library="cc-by-sa" package="CC-BY-NC-SA" value="CC-BY-NC-SA" x="53" y="37" rot="MR0">
 <attribute name="OC_NEWARK" value="unknown" x="53" y="37" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3382,9 +3382,9 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="37.69" y="45.48" size="0.4064" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="K2" library="rel-omron" package="PY08" value="MY2" x="40" y="24" rot="R180">
-<attribute name="OC_NEWARK" value="96B2719" x="40" y="24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="36K3464" x="40" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="OMRON COMPONENTS USA" x="40" y="24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MY2-02-DC24" x="40" y="24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="PY08" x="40" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J5" library="con-molex" package="7395-03" value="22-05-7038-03" x="44" y="5" smashed="yes">
 <attribute name="MPN" value="22-05-7038" x="-17" y="48" size="1.778" layer="27" display="off"/>
@@ -3411,9 +3411,9 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="55.19" y="45.58" size="0.4064" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="K1" library="rel-omron" package="PY08" value="MY2" x="65" y="24" rot="R180">
-<attribute name="OC_NEWARK" value="96B2719" x="65" y="24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="36K3464" x="65" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="OMRON COMPONENTS USA" x="65" y="24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MY2-02-DC24" x="65" y="24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="PY08" x="65" y="24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J2" library="con-molex" package="7395-03" value="22-05-7038-03" x="68" y="5" smashed="yes">
 <attribute name="MPN" value="22-05-7038" x="7" y="49" size="1.778" layer="27" display="off"/>

@@ -2209,8 +2209,8 @@ Various fiducial points for machine vision alignment.</description>
 <part name="J7" library="con-phoenix-508" deviceset="MSTBA3" device=""/>
 <part name="K3" library="rel-omron" deviceset="MY2" device="">
 <attribute name="MF" value="OMRON COMPONENTS USA"/>
-<attribute name="MPN" value="MY2-02-DC24"/>
-<attribute name="OC_NEWARK" value="96B2719"/>
+<attribute name="MPN" value="PY08"/>
+<attribute name="OC_NEWARK" value="36K3464"/>
 </part>
 <part name="P+5" library="supply3" deviceset="+24V" device=""/>
 <part name="GND9" library="supply3" deviceset="GND" device=""/>
@@ -2259,8 +2259,8 @@ Various fiducial points for machine vision alignment.</description>
 <part name="J4" library="con-phoenix-508" deviceset="MSTBA3" device=""/>
 <part name="K2" library="rel-omron" deviceset="MY2" device="">
 <attribute name="MF" value="OMRON COMPONENTS USA"/>
-<attribute name="MPN" value="MY2-02-DC24"/>
-<attribute name="OC_NEWARK" value="96B2719"/>
+<attribute name="MPN" value="PY08"/>
+<attribute name="OC_NEWARK" value="36K3464"/>
 </part>
 <part name="P+3" library="supply3" deviceset="+24V" device=""/>
 <part name="GND5" library="supply3" deviceset="GND" device=""/>
@@ -2279,8 +2279,8 @@ Various fiducial points for machine vision alignment.</description>
 <part name="J1" library="con-phoenix-508" deviceset="MSTBA3" device=""/>
 <part name="K1" library="rel-omron" deviceset="MY2" device="">
 <attribute name="MF" value="OMRON COMPONENTS USA"/>
-<attribute name="MPN" value="MY2-02-DC24"/>
-<attribute name="OC_NEWARK" value="96B2719"/>
+<attribute name="MPN" value="PY08"/>
+<attribute name="OC_NEWARK" value="36K3464"/>
 </part>
 <part name="P+1" library="supply3" deviceset="+24V" device=""/>
 <part name="GND1" library="supply3" deviceset="GND" device=""/>
