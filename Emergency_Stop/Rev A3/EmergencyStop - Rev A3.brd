@@ -3764,7 +3764,7 @@ Your Eurocircuits Team
 <element name="J1" library="con-neutrik_ag" package="NC3MAV" value="NC3MAV" x="6" y="11.5" smashed="yes">
 <attribute name="MF" value="FARNELL" x="6" y="11.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="724531" x="6" y="11.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="46WX3058" x="6" y="11.5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="6" y="11.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="NC3MAV" x="6" y="11.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="5.57" y="8.99" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="4.19" y="12.99" size="0.4064" layer="27" align="center"/>
@@ -3772,21 +3772,54 @@ Your Eurocircuits Team
 <element name="J2" library="con-neutrik_ag" package="NC3FBV2-SW" value="NC3FBV2-SW" x="40" y="11.5" smashed="yes">
 <attribute name="NAME" x="39.57" y="8.99" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="36.19" y="12.99" size="0.4064" layer="27" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="40" y="11.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="40" y="11.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="40" y="11.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SJ100" library="SparkFun-Passives" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="24" y="11.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.092" y="9.23" size="0.6096" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="23.092" y="10.151" size="0.4064" layer="28" rot="MR180"/>
+<attribute name="OC_NEWARK" value="unknown" x="24" y="11.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="24" y="11.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="24" y="11.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="F100" library="fuse2" package="LITTLEFUSE_SMD" value="1812L110/24DR" x="17.5" y="14.8" smashed="yes" rot="MR180">
 <attribute name="NAME" x="15.56" y="11.76" size="0.6096" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="15.56" y="12.54" size="0.4064" layer="28" rot="MR180"/>
+<attribute name="OC_NEWARK" value="39X0319" x="17.5" y="14.8" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="" x="17.5" y="14.8" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="1812L110/24DR" x="17.5" y="14.8" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="CC100" library="cc-by-sa" package="CC-BY-NC-SA" value="CC-BY-NC-SA" x="13" y="21.5" rot="MR0"/>
-<element name="T100" library="exmachina" package="EXM-LOGO-BASELINE" value="EXMACHINA-LOGO-NAME" x="42" y="21.5" rot="MR0"/>
-<element name="JP100" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3" y="2.5" rot="MR0"/>
-<element name="JP103" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3" y="22.5" rot="MR0"/>
-<element name="JP102" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="49" y="22.5" rot="MR0"/>
-<element name="JP101" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="49" y="4.5" rot="MR0"/>
+<element name="CC100" library="cc-by-sa" package="CC-BY-NC-SA" value="CC-BY-NC-SA" x="13" y="21.5" rot="MR0">
+<attribute name="OC_NEWARK" value="unknown" x="13" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="13" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="13" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="T100" library="exmachina" package="EXM-LOGO-BASELINE" value="EXMACHINA-LOGO-NAME" x="42" y="21.5" rot="MR0">
+<attribute name="OC_NEWARK" value="unknown" x="42" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="42" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="42" y="21.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="JP100" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3" y="2.5" rot="MR0">
+<attribute name="OC_NEWARK" value="unknown" x="3" y="2.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="3" y="2.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="3" y="2.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="JP103" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3" y="22.5" rot="MR0">
+<attribute name="OC_NEWARK" value="unknown" x="3" y="22.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="3" y="22.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="3" y="22.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="JP102" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="49" y="22.5" rot="MR0">
+<attribute name="OC_NEWARK" value="unknown" x="49" y="22.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="49" y="22.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="49" y="22.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="JP101" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="49" y="4.5" rot="MR0">
+<attribute name="OC_NEWARK" value="unknown" x="49" y="4.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="" x="49" y="4.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="" x="49" y="4.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 <element name="J101" library="con-molex" package="7395-03" value="22-05-7038-03" x="28" y="4.5" smashed="yes" rot="MR0">
 <attribute name="MF" value="" x="28" y="4.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="28" y="4.5" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3812,8 +3845,16 @@ Your Eurocircuits Team
 <attribute name="NAME" x="35" y="0.5" size="0.6096" layer="26" ratio="10" rot="MR180" align="center"/>
 <attribute name="VALUE" x="35" y="1.5" size="0.4064" layer="28" ratio="10" rot="MR180" align="center"/>
 </element>
-<element name="LED1" library="led" package="CHIPLED_0603" value="BLUE" x="21" y="24" rot="R90"/>
-<element name="R1" library="rcl" package="R0603" value="4K7" x="23.7" y="21.4" rot="R270"/>
+<element name="LED1" library="led" package="CHIPLED_0603" value="BLUE" x="21" y="24" rot="R90">
+<attribute name="OC_NEWARK" value="15R2205" x="21" y="24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="21" y="24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="OVS-0603" x="21" y="24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R1" library="rcl" package="R0603" value="4K7" x="23.7" y="21.4" rot="R270">
+<attribute name="OC_NEWARK" value="68R0092" x="23.7" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="23.7" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-074K7L" x="23.7" y="21.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="SIG_OUT">
