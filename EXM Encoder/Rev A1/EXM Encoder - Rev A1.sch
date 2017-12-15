@@ -1726,6 +1726,8 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="8.45" y1="-1.3" x2="8.45" y2="1.3" width="0.127" layer="20"/>
 <wire x1="9.95" y1="-1.3" x2="9.95" y2="1.3" width="0.127" layer="20"/>
 <wire x1="9.95" y1="1.3" x2="8.45" y2="1.3" width="0.127" layer="20"/>
+<text x="-5.08" y="6.35" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-5.08" y="5.715" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1827,10 +1829,10 @@ Various fiducial points for machine vision alignment.</description>
 <pad name="3" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="4" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="5" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="6.4501" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="-3.2751" y="-3.5829" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="4.5959" y="-3.4021" size="1.27" layer="51" ratio="14" rot="R270">1</text>
 <text x="-5.5133" y="-3.2751" size="1.27" layer="51" ratio="14" rot="R270">5</text>
-<text x="7.2121" y="-2.4399" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-3.2751" y="-4.2179" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
