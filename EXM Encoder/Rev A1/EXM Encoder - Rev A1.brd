@@ -132,6 +132,11 @@
 <text x="20" y="7" size="1.016" layer="21" font="vector" rot="R270" align="center-right">+5V</text>
 <text x="5" y="10" size="1.016" layer="21" font="vector" rot="R90" align="center-left">EXM Encoder
 Rev A1</text>
+<text x="17.5" y="7" size="1.016" layer="22" font="vector" rot="MR90" align="center-left">PUSH</text>
+<text x="15" y="7" size="1.016" layer="22" font="vector" rot="MR90" align="center-left">B</text>
+<text x="12.5" y="7" size="1.016" layer="22" font="vector" rot="MR90" align="center-left">A</text>
+<text x="10" y="7" size="1.016" layer="22" font="vector" rot="MR90" align="center-left">GND</text>
+<text x="20" y="7" size="1.016" layer="22" font="vector" rot="MR90" align="center-left">+5V</text>
 </plain>
 <libraries>
 <library name="cc-by-sa">
