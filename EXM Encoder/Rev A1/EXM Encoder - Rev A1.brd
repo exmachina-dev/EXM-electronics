@@ -1839,7 +1839,7 @@ Your Eurocircuits Team
 <signals>
 <signal name="GND">
 <contactref element="E1" pad="D"/>
-<contactref element="E1" pad="A"/>
+<contactref element="E1" pad="C"/>
 <contactref element="J2" pad="5"/>
 <polygon width="0.4064" layer="1">
 <vertex x="-2" y="37"/>
@@ -1861,11 +1861,11 @@ Your Eurocircuits Team
 <wire x1="17.54" y1="15.96" x2="17.5" y2="16" width="0.4064" layer="1"/>
 </signal>
 <signal name="ENCODER_A">
-<contactref element="E1" pad="C"/>
+<contactref element="E1" pad="A"/>
 <contactref element="J2" pad="4"/>
-<wire x1="12.46" y1="5" x2="12.46" y2="9.54" width="0.4064" layer="1"/>
-<wire x1="12.46" y1="9.54" x2="11.25" y2="10.75" width="0.4064" layer="1"/>
-<wire x1="11.25" y1="10.75" x2="11.25" y2="13" width="0.4064" layer="1"/>
+<wire x1="12.46" y1="5" x2="12.46" y2="7.54" width="0.4064" layer="1"/>
+<wire x1="12.46" y1="7.54" x2="8.75" y2="11.25" width="0.4064" layer="1"/>
+<wire x1="8.75" y1="11.25" x2="8.75" y2="14" width="0.4064" layer="1"/>
 </signal>
 <signal name="ENCODER_B">
 <contactref element="E1" pad="B"/>
