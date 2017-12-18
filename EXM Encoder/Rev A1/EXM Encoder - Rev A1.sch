@@ -1718,16 +1718,52 @@ Various fiducial points for machine vision alignment.</description>
 <pad name="A" x="-6.25" y="-9" drill="1.2"/>
 <pad name="C" x="-3.75" y="-10" drill="1.2"/>
 <pad name="B" x="-1.25" y="-10" drill="1.2"/>
-<wire x1="-9.95" y1="-1.3" x2="-9.95" y2="1.3" width="0.127" layer="20"/>
-<wire x1="-9.95" y1="1.3" x2="-8.45" y2="1.3" width="0.127" layer="20"/>
-<wire x1="-8.45" y1="1.3" x2="-8.45" y2="-1.3" width="0.127" layer="20"/>
-<wire x1="-8.45" y1="-1.3" x2="-9.95" y2="-1.3" width="0.127" layer="20"/>
-<wire x1="9.95" y1="-1.3" x2="8.45" y2="-1.3" width="0.127" layer="20"/>
-<wire x1="8.45" y1="-1.3" x2="8.45" y2="1.3" width="0.127" layer="20"/>
-<wire x1="9.95" y1="-1.3" x2="9.95" y2="1.3" width="0.127" layer="20"/>
-<wire x1="9.95" y1="1.3" x2="8.45" y2="1.3" width="0.127" layer="20"/>
+<wire x1="-9.95" y1="-1.3" x2="-9.95" y2="1.3" width="0" layer="20"/>
+<wire x1="-9.95" y1="1.3" x2="-8.45" y2="1.3" width="0" layer="20"/>
+<wire x1="-8.45" y1="1.3" x2="-8.45" y2="-1.3" width="0" layer="20"/>
+<wire x1="-8.45" y1="-1.3" x2="-9.95" y2="-1.3" width="0" layer="20"/>
+<wire x1="9.95" y1="-1.3" x2="8.45" y2="-1.3" width="0" layer="20"/>
+<wire x1="8.45" y1="-1.3" x2="8.45" y2="1.3" width="0" layer="20"/>
+<wire x1="9.95" y1="-1.3" x2="9.95" y2="1.3" width="0" layer="20"/>
+<wire x1="9.95" y1="1.3" x2="8.45" y2="1.3" width="0" layer="20"/>
 <text x="-5.08" y="6.35" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-5.08" y="5.715" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.6096" layer="17">
+<vertex x="-10.1" y="1.45"/>
+<vertex x="-8.3" y="1.45"/>
+<vertex x="-8.3" y="-1.45"/>
+<vertex x="-10.1" y="-1.45"/>
+</polygon>
+<polygon width="0.6096" layer="30">
+<vertex x="-10.1" y="1.45"/>
+<vertex x="-8.3" y="1.45"/>
+<vertex x="-8.3" y="-1.45"/>
+<vertex x="-10.1" y="-1.45"/>
+</polygon>
+<polygon width="0.6096" layer="29">
+<vertex x="-10.1" y="1.45"/>
+<vertex x="-8.3" y="1.45"/>
+<vertex x="-8.3" y="-1.45"/>
+<vertex x="-10.1" y="-1.45"/>
+</polygon>
+<polygon width="0.6096" layer="17">
+<vertex x="8.3" y="1.45"/>
+<vertex x="10.1" y="1.45"/>
+<vertex x="10.1" y="-1.45"/>
+<vertex x="8.3" y="-1.45"/>
+</polygon>
+<polygon width="0.6096" layer="30">
+<vertex x="8.3" y="1.45"/>
+<vertex x="10.1" y="1.45"/>
+<vertex x="10.1" y="-1.45"/>
+<vertex x="8.3" y="-1.45"/>
+</polygon>
+<polygon width="0.6096" layer="29">
+<vertex x="8.3" y="1.45"/>
+<vertex x="10.1" y="1.45"/>
+<vertex x="10.1" y="-1.45"/>
+<vertex x="8.3" y="-1.45"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -1819,7 +1855,6 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-13.081" width="0.254" layer="51"/>
 <wire x1="-5.08" y1="-13.081" x2="-4.826" y2="-13.589" width="0.254" layer="51"/>
 <wire x1="-4.826" y1="-13.589" x2="0.0508" y2="-13.589" width="0.254" layer="51"/>
-<wire x1="0" y1="-5.08" x2="-0.381" y2="-5.08" width="0.254" layer="21"/>
 <wire x1="-5.461" y1="-5.08" x2="-5.461" y2="-11.303" width="0.254" layer="51"/>
 <wire x1="-5.461" y1="-11.303" x2="-5.1308" y2="-11.6586" width="0.254" layer="51"/>
 <wire x1="5.461" y1="-5.08" x2="5.461" y2="-11.303" width="0.254" layer="51"/>
