@@ -28,13 +28,15 @@ The following are general rules to help maintain a consistent folder structure:
 
 * BOMs, partlists, spreadsheet and Gerber should placed inside a `MDP/` folder.  
 
-### STATUS
-* DMX Proto Rev A1
-* Emergency Stop Rev A3
-* EXM Encoder Rev A1
-* EXM HMI LED Rev A1
-* EXM Relay Four Rev A1
-* EXM Relay One Rev A3
-* EXM Relay Three Rev A2
-* Switch Ethernet  Rev A5
+## STATUS
+|		Board		|	Rev  |		|
+|-------------------|--------|------|
+|DMX Proto			| Rev A1 | :ok: |
+|Emergency Stop 	| Rev A3 | :ok: |
+|EXM Encoder 		| Rev A1 | :ok: |
+|EXM HMI LED 		| Rev A1 | :ok: |
+|EXM Relay Four		| Rev A1 | :ok: |
+|EXM Relay One		| Rev A3 | :ok: |
+|EXM Relay Three	| Rev A2 | :ok: |
+|Switch Ethernet 	| Rev A5 | :ok: |
 
