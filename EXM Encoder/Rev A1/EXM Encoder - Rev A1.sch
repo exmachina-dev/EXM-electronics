@@ -1768,9 +1768,9 @@ Various fiducial points for machine vision alignment.</description>
 <devices>
 <device name="1824401" package="EC20A">
 <connects>
-<connect gate="G$1" pin="COM" pad="A"/>
+<connect gate="G$1" pin="COM" pad="C"/>
 <connect gate="G$1" pin="COM_PUSH" pad="D"/>
-<connect gate="G$1" pin="ENCODER_A" pad="C"/>
+<connect gate="G$1" pin="ENCODER_A" pad="A"/>
 <connect gate="G$1" pin="ENCODER_B" pad="B"/>
 <connect gate="G$1" pin="PUSH" pad="E"/>
 </connects>
