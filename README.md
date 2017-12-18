@@ -6,7 +6,7 @@ ____ _  _ _  _    ____ _    ____ ____ ___ ____ ____ _  _ _ ____ ____
 ```
                                                                          
                                                                          
-# Eisla electronics
+# EXM electronics
 
 This repo contains all necessary files to design and produce PCBs for the ExMachina product range.
 
@@ -26,6 +26,15 @@ The following are general rules to help maintain a consistent folder structure:
 
 * Mutiples revisions can be placed inside a subfolder. i.e. `SwitchEthernet/Rev A1`
 
-* BOMs, partlists, spreadsheet should placed inside a `BOMs/` folder.  
+* BOMs, partlists, spreadsheet and Gerber should placed inside a `MDP/` folder.  
 
-* Documentations files are in `doc/` inside a project folder.
+### STATUS
+* DMX Proto Rev A1
+* Emergency Stop Rev A3
+* EXM Encoder Rev A1
+* EXM HMI LED Rev A1
+* EXM Relay Four Rev A1
+* EXM Relay One Rev A3
+* EXM Relay Three Rev A2
+* Switch Ethernet  Rev A5
+
