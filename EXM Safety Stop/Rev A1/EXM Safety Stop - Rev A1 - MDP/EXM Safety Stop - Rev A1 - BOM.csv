@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";
+"1";"1812L110/24DR";"1812L110/24DR";"LITTLEFUSE_SMD";"F100";"";"";"1812L110/24DR";"";"39X0319";
+"1";"22-05-7028-02";"22-05-7028-02";"7395-02";"J100";"CONNECTOR";"";"";"9731601";"unknown";
+"2";"22-05-7038-03";"22-05-7038-03";"7395-03";"J101, J102";"CONNECTOR";"";"";"9731610 ";"unknown";
+"1";"4K7";"R-EU_R0603";"R0603";"R1";"RESISTOR, European symbol";"";"RC0603FR-074K7L";"";"68R0092";
+"1";"BLUE";"LEDCHIPLED_0603";"CHIPLED_0603";"LED1";"LED";"";"OVS-0603";"";"15R2205";
+"1";"CC-BY-NC-SA";"CC-BY-NC-SA";"CC-BY-NC-SA";"CC100";"";"";"";"";"unknown";
+"1";"EXMACHINA-LOGO-NAME";"EXMACHINA-LOGO-NAME";"EXM-LOGO-BASELINE";"T100";"";"";"";"";"unknown";
+"4";"FIDUCIAL1X2";"FIDUCIAL1X2";"FIDUCIAL-1X2";"JP100, JP101, JP102, JP103";"Fiducial Alignment Points";"";"";"";"unknown";
+"1";"NC3FBV2-SW";"NC3FBV2-SW";"NC3FBV2-SW";"J2";"Neutrik Audio Connector XLR SERIES";"";"";"";"unknown";
+"1";"NC3MAV";"NC3MAV";"NC3MAV";"J1";"Neutrik Audio Connector XLR SERIES";"FARNELL";"NC3MAV";"724531";"unknown";
+"1";"SOLDERJUMPERNO";"SOLDERJUMPERNO";"SJ_2S-NO";"SJ100";"Solder Jumper";"";"";"";"unknown";

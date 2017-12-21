@@ -1961,10 +1961,10 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="4" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="5.1801" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="-2.6401" y="-3.5829" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.81" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">1</text>
 <text x="-3.81" y="-3.81" size="1.27" layer="51" ratio="14" rot="R270" align="center">4</text>
-<text x="5.9421" y="-2.4399" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-2.6401" y="-4.2179" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
