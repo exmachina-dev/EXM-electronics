@@ -9608,10 +9608,10 @@ Source: www.neutrik.com/</description>
 <attribute name="MF" x="116.84" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="116.84" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="F100" gate="G$1" x="55.88" y="170.18" rot="MR270">
-<attribute name="OC_NEWARK" x="55.88" y="170.18" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="55.88" y="170.18" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="55.88" y="170.18" size="1.778" layer="96" display="off"/>
+<instance part="F100" gate="G$1" x="55.88" y="144.78" rot="MR270">
+<attribute name="OC_NEWARK" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CC100" gate="G$1" x="303.53" y="8.89">
 <attribute name="OC_NEWARK" x="303.53" y="8.89" size="1.778" layer="96" display="off"/>
@@ -9675,7 +9675,6 @@ Source: www.neutrik.com/</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<label x="66.04" y="165.1" size="1.778" layer="95"/>
 <wire x1="180.34" y1="177.8" x2="66.04" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="177.8" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="177.8" x2="180.34" y2="190.5" width="0.1524" layer="91"/>
@@ -9701,7 +9700,6 @@ Source: www.neutrik.com/</description>
 </net>
 <net name="SIG" class="0">
 <segment>
-<label x="66.04" y="162.56" size="1.778" layer="95"/>
 <wire x1="63.5" y1="198.12" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="J102" gate="-2" pin="S"/>
 <label x="63.5" y="114.3" size="1.27" layer="95" rot="R90"/>
@@ -9731,28 +9729,28 @@ Source: www.neutrik.com/</description>
 <pinref part="J2" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="+24V_IN" class="0">
+<net name="+24V_PS" class="0">
 <segment>
 <pinref part="F100" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="165.1" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="162.56" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="139.7" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J102" gate="-1" pin="S"/>
-<pinref part="SJ100" gate="1" pin="2"/>
-<wire x1="60.96" y1="152.4" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
-<junction x="60.96" y="152.4"/>
+<wire x1="60.96" y1="137.16" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <label x="60.96" y="114.3" size="1.27" layer="95" rot="R90"/>
-<label x="60.96" y="152.4" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="+24V_IN" class="0">
 <segment>
 <pinref part="F100" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="175.26" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="177.8" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="149.86" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="152.4" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="SJ100" gate="1" pin="2"/>
+<wire x1="60.96" y1="160.02" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="152.4" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
+<junction x="60.96" y="160.02"/>
 </segment>
 </net>
 <net name="N$2" class="0">
