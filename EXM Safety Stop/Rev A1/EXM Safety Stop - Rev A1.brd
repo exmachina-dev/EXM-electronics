@@ -3822,7 +3822,7 @@ Your Eurocircuits Team
 <contactref element="J1" pad="3"/>
 <contactref element="R1" pad="2"/>
 <contactref element="J2" pad="3"/>
-<wire x1="23" y1="20.4" x2="23" y2="5" width="0.8128" layer="1"/>
+<wire x1="23" y1="20.4" x2="23" y2="5" width="0.6096" layer="1"/>
 <wire x1="6" y1="7.05" x2="7.2" y2="8.25" width="0.8128" layer="16"/>
 <wire x1="7.2" y1="8.25" x2="21.5" y2="8.25" width="0.8128" layer="16"/>
 <wire x1="39.44" y1="8.25" x2="24.25" y2="8.25" width="0.8128" layer="16"/>
@@ -3845,9 +3845,9 @@ Your Eurocircuits Team
 <signal name="N$2">
 <contactref element="R1" pad="1"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="21.75" y1="24" x2="22.25" y2="24" width="0.8128" layer="1"/>
-<wire x1="22.25" y1="24" x2="23" y2="23.25" width="0.8128" layer="1"/>
-<wire x1="23" y1="23.25" x2="23" y2="22.1" width="0.8128" layer="1"/>
+<wire x1="21.75" y1="24" x2="22.25" y2="24" width="0.6096" layer="1"/>
+<wire x1="22.25" y1="24" x2="23" y2="23.25" width="0.6096" layer="1"/>
+<wire x1="23" y1="23.25" x2="23" y2="22.1" width="0.6096" layer="1"/>
 </signal>
 <signal name="GND_MECA">
 <contactref element="J1" pad="G"/>
