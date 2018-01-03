@@ -1718,22 +1718,20 @@ Various fiducial points for machine vision alignment.</description>
 <pad name="A" x="-6.25" y="-9" drill="1.2"/>
 <pad name="C" x="-3.75" y="-10" drill="1.2"/>
 <pad name="B" x="-1.25" y="-10" drill="1.2"/>
-<wire x1="-9.95" y1="-1.3" x2="-9.95" y2="1.3" width="0" layer="20"/>
-<wire x1="-9.95" y1="1.3" x2="-8.45" y2="1.3" width="0" layer="20"/>
-<wire x1="-8.45" y1="1.3" x2="-8.45" y2="-1.3" width="0" layer="20"/>
-<wire x1="-8.45" y1="-1.3" x2="-9.95" y2="-1.3" width="0" layer="20"/>
-<wire x1="9.95" y1="-1.3" x2="8.45" y2="-1.3" width="0" layer="20"/>
-<wire x1="8.45" y1="-1.3" x2="8.45" y2="1.3" width="0" layer="20"/>
-<wire x1="9.95" y1="-1.3" x2="9.95" y2="1.3" width="0" layer="20"/>
-<wire x1="9.95" y1="1.3" x2="8.45" y2="1.3" width="0" layer="20"/>
+<wire x1="-9.2" y1="1.4" x2="-8.45" y2="0.65" width="0" layer="20" curve="-90"/>
+<wire x1="-8.45" y1="0.65" x2="-8.45" y2="-0.65" width="0" layer="20"/>
+<wire x1="-8.45" y1="-0.65" x2="-9.2" y2="-1.4" width="0" layer="20" curve="-90"/>
+<wire x1="-9.2" y1="-1.4" x2="-9.95" y2="-0.65" width="0" layer="20" curve="-90"/>
+<wire x1="-9.95" y1="-0.65" x2="-9.95" y2="0.65" width="0" layer="20"/>
+<wire x1="-9.95" y1="0.65" x2="-9.2" y2="1.4" width="0" layer="20" curve="-90"/>
+<wire x1="9.95" y1="-0.55" x2="9.95" y2="0.55" width="0" layer="20"/>
+<wire x1="9.95" y1="0.55" x2="9.2" y2="1.3" width="0" layer="20" curve="90"/>
+<wire x1="9.2" y1="1.3" x2="8.45" y2="0.55" width="0" layer="20" curve="90"/>
+<wire x1="8.45" y1="0.55" x2="8.45" y2="-0.55" width="0" layer="20"/>
+<wire x1="8.45" y1="-0.55" x2="9.2" y2="-1.3" width="0" layer="20" curve="90"/>
+<wire x1="9.2" y1="-1.3" x2="9.95" y2="-0.55" width="0" layer="20" curve="90"/>
 <text x="-5.08" y="6.35" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-5.08" y="5.715" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.6096" layer="17">
-<vertex x="-10.1" y="1.45"/>
-<vertex x="-8.3" y="1.45"/>
-<vertex x="-8.3" y="-1.45"/>
-<vertex x="-10.1" y="-1.45"/>
-</polygon>
 <polygon width="0.6096" layer="30">
 <vertex x="-10.1" y="1.45"/>
 <vertex x="-8.3" y="1.45"/>
@@ -1745,12 +1743,6 @@ Various fiducial points for machine vision alignment.</description>
 <vertex x="-8.3" y="1.45"/>
 <vertex x="-8.3" y="-1.45"/>
 <vertex x="-10.1" y="-1.45"/>
-</polygon>
-<polygon width="0.6096" layer="17">
-<vertex x="8.3" y="1.45"/>
-<vertex x="10.1" y="1.45"/>
-<vertex x="10.1" y="-1.45"/>
-<vertex x="8.3" y="-1.45"/>
 </polygon>
 <polygon width="0.6096" layer="30">
 <vertex x="8.3" y="1.45"/>
@@ -1764,6 +1756,22 @@ Various fiducial points for machine vision alignment.</description>
 <vertex x="10.1" y="-1.45"/>
 <vertex x="8.3" y="-1.45"/>
 </polygon>
+<wire x1="-9.05" y1="-1.45" x2="-9.35" y2="-1.45" width="0.6096" layer="17"/>
+<wire x1="-9.35" y1="-1.45" x2="-10.1" y2="-0.7" width="0.6096" layer="17" curve="-90"/>
+<wire x1="-10.1" y1="-0.7" x2="-10.1" y2="0.7" width="0.6096" layer="17"/>
+<wire x1="-10.1" y1="0.7" x2="-9.35" y2="1.45" width="0.6096" layer="17" curve="-90"/>
+<wire x1="-9.35" y1="1.45" x2="-9.05" y2="1.45" width="0.6096" layer="17"/>
+<wire x1="-9.05" y1="1.45" x2="-8.3" y2="0.7" width="0.6096" layer="17" curve="-90"/>
+<wire x1="-8.3" y1="0.7" x2="-8.3" y2="-0.7" width="0.6096" layer="17"/>
+<wire x1="-8.3" y1="-0.7" x2="-9.05" y2="-1.45" width="0.6096" layer="17" curve="-90"/>
+<wire x1="8.3" y1="0.7" x2="8.3" y2="-0.7" width="0.6096" layer="17"/>
+<wire x1="8.3" y1="-0.7" x2="9.05" y2="-1.45" width="0.6096" layer="17" curve="90"/>
+<wire x1="9.05" y1="-1.45" x2="9.35" y2="-1.45" width="0.6096" layer="17"/>
+<wire x1="9.35" y1="-1.45" x2="10.1" y2="-0.7" width="0.6096" layer="17" curve="90"/>
+<wire x1="10.1" y1="-0.7" x2="10.1" y2="0.7" width="0.6096" layer="17"/>
+<wire x1="10.1" y1="0.7" x2="9.35" y2="1.45" width="0.6096" layer="17" curve="90"/>
+<wire x1="9.35" y1="1.45" x2="9.05" y2="1.45" width="0.6096" layer="17"/>
+<wire x1="9.05" y1="1.45" x2="8.3" y2="0.7" width="0.6096" layer="17" curve="90"/>
 </package>
 </packages>
 <symbols>
