@@ -195,6 +195,19 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-1.27" y="-4.445" size="1.27" layer="47">2.5</text>
 <pad name="1" x="0" y="0" drill="2.7" diameter="5"/>
 </package>
+<package name="P3,5">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1.85" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+<pad name="1" x="0" y="0" drill="3.5" diameter="6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNT-PAD">
@@ -225,6 +238,14 @@ DIN A3, landscape with location and doc. field</description>
 </technologies>
 </device>
 <device name="2.5" package="P2.5">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.5" package="P3,5">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 </connects>
@@ -271,41 +292,33 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="1" x="-5.08" y="5.08" drill="1.397" shape="long" rot="R90"/>
 <pad name="2" x="0" y="5.08" drill="1.397" shape="long" rot="R90"/>
 <pad name="3" x="5.08" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<text x="-8.636" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-7.112" y="4.445" size="1.27" layer="21" ratio="10">1</text>
-<text x="-2.286" y="4.445" size="1.27" layer="21" ratio="10">2</text>
-<text x="2.794" y="4.445" size="1.27" layer="21" ratio="10">3</text>
+<text x="8.89" y="6.35" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="8.89" y="5.08" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-7.112" y="4.445" size="1.27" layer="21" font="vector" ratio="10">1</text>
+<text x="-2.286" y="4.445" size="1.27" layer="21" font="vector" ratio="10">2</text>
+<text x="2.794" y="4.445" size="1.27" layer="21" font="vector" ratio="10">3</text>
 </package>
 <package name="MSTBA2">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="7.112" x2="6.096" y2="7.112" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="7.112" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="-1.905" x2="-6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="6.096" y1="-1.905" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="-4.953" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-4.953" width="0.254" layer="21"/>
+<wire x1="-6.096" y1="7.112" x2="-4.445" y2="7.112" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="7.112" x2="4.445" y2="7.112" width="0.254" layer="51"/>
+<wire x1="4.445" y1="7.112" x2="6.096" y2="7.112" width="0.254" layer="21"/>
+<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.254" layer="51" style="shortdash"/>
+<wire x1="6.096" y1="7.112" x2="6.096" y2="-4.953" width="0.254" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="-6.096" y1="-4.953" x2="6.096" y2="-4.953" width="0.254" layer="21"/>
+<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="51"/>
 <pad name="1" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
 <pad name="2" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
-<text x="-6.096" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.572" y="4.445" size="1.27" layer="21" ratio="10">1</text>
-<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">2</text>
+<text x="-5.08" y="-1.27" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-4.572" y="4.445" size="1.27" layer="21" font="vector" ratio="10">1</text>
+<text x="0.254" y="4.445" size="1.27" layer="21" font="vector" ratio="10">2</text>
 </package>
 </packages>
 <symbols>
@@ -2034,10 +2047,10 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="1" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="3.9101" y="2.9479" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="4.3449" y="-4.2179" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.0559" y="-3.4021" size="1.27" layer="51" ratio="14" rot="R270">1</text>
 <text x="-2.9733" y="-3.2751" size="1.27" layer="51" ratio="14" rot="R270">3</text>
-<text x="4.6721" y="-2.4399" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="4.3449" y="-4.8529" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="4.1275" y="0" radius="0.2032" width="0.4064" layer="21"/>
 </package>
 <package name="6410-03">
@@ -2163,9 +2176,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="K1" library="rel-omron" deviceset="MY2" device=""/>
 <part name="P+1" library="supply3" deviceset="+24V" device=""/>
 <part name="GND1" library="supply3" deviceset="GND" device=""/>
-<part name="GND2" library="supply3" deviceset="GND" device=""/>
 <part name="GND3" library="supply3" deviceset="GND" device=""/>
-<part name="P+2" library="supply3" deviceset="+24V" device=""/>
 <part name="CC1" library="cc-by-sa" deviceset="CC-BY-NC-SA" device=""/>
 <part name="T1" library="exmachina" deviceset="EXMACHINA-LOGO" device="-NAME"/>
 <part name="J1" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
@@ -2173,7 +2184,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="GND4" library="supply3" deviceset="GND" device=""/>
 <part name="J4" library="con-molex" deviceset="22-?-03" device="05-7038"/>
 <part name="J3" library="con-molex" deviceset="22-?-03" device="05-7038"/>
-<part name="GND5" library="supply3" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2189,9 +2199,7 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="K1" gate="G$2" x="162.56" y="218.44" rot="MR90"/>
 <instance part="P+1" gate="1" x="35.56" y="220.98"/>
 <instance part="GND1" gate="1" x="35.56" y="198.12"/>
-<instance part="GND2" gate="1" x="35.56" y="228.6"/>
 <instance part="GND3" gate="1" x="142.24" y="205.74"/>
-<instance part="P+2" gate="1" x="157.48" y="231.14"/>
 <instance part="CC1" gate="G$1" x="304.8" y="10.16"/>
 <instance part="T1" gate="G$1" x="312.42" y="20.32"/>
 <instance part="J1" gate="-1" x="22.86" y="175.26"/>
@@ -2205,7 +2213,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <instance part="J3" gate="-1" x="73.66" y="241.3" rot="MR0"/>
 <instance part="J3" gate="-2" x="73.66" y="236.22" rot="MR0"/>
 <instance part="J3" gate="-3" x="73.66" y="231.14" rot="MR0"/>
-<instance part="GND5" gate="1" x="86.36" y="228.6"/>
 <instance part="K1" gate="G$1" x="142.24" y="218.44"/>
 </instances>
 <busses>
@@ -2217,16 +2224,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <pinref part="P+1" gate="1" pin="+24V"/>
 <wire x1="30.48" y1="213.36" x2="35.56" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="213.36" x2="35.56" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="K1" gate="G$2" pin="C"/>
-<pinref part="P+2" gate="1" pin="+24V"/>
-<wire x1="160.02" y1="218.44" x2="157.48" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="218.44" x2="157.48" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="K1" gate="G$3" pin="C"/>
-<wire x1="160.02" y1="195.58" x2="157.48" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="195.58" x2="157.48" y2="218.44" width="0.1524" layer="91"/>
-<junction x="157.48" y="218.44"/>
 </segment>
 <segment>
 <pinref part="J1" gate="-1" pin="1"/>
@@ -2243,11 +2240,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="35.56" y1="203.2" x2="35.56" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="27.94" y1="231.14" x2="35.56" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="J4" gate="-3" pin="S"/>
-</segment>
-<segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="142.24" y1="213.36" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="K1" gate="G$1" pin="-"/>
@@ -2257,11 +2249,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="27.94" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="170.18" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J3" gate="-3" pin="S"/>
-<wire x1="76.2" y1="231.14" x2="86.36" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SIG_IN" class="0">
@@ -2327,6 +2314,30 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <pinref part="J3" gate="-2" pin="S"/>
 <wire x1="76.2" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
 <label x="86.36" y="236.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SIG2_C" class="0">
+<segment>
+<pinref part="J3" gate="-3" pin="S"/>
+<wire x1="76.2" y1="231.14" x2="86.36" y2="231.14" width="0.1524" layer="91"/>
+<label x="86.36" y="231.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K1" gate="G$3" pin="C"/>
+<wire x1="160.02" y1="195.58" x2="157.48" y2="195.58" width="0.1524" layer="91"/>
+<label x="157.48" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SIG1_C" class="0">
+<segment>
+<pinref part="J4" gate="-3" pin="S"/>
+<wire x1="27.94" y1="231.14" x2="38.1" y2="231.14" width="0.1524" layer="91"/>
+<label x="38.1" y="231.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K1" gate="G$2" pin="C"/>
+<wire x1="160.02" y1="218.44" x2="157.48" y2="218.44" width="0.1524" layer="91"/>
+<label x="157.48" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
