@@ -1,0 +1,127 @@
+Partlist
+
+Exported from SwitchEthernet - Rev A6.brd at 2018-01-15 16:13
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                   Package             Library                     Position (mm)         Orientation
+
+C1       1000pF, 2kV             C1206               rcl                         (15.75 13.5)          MR90
+C2       1000pF, 2kV             C1206               rcl                         (49.75 13.5)          MR90
+C3       10uF                    C0603               rcl                         (17.53 57.1425)       MR90
+C4       0.1uF                   C0603               rcl                         (15.6175 57.1425)     MR90
+C5       1000pF, 2kV             C1206               rcl                         (54.75 13.5)          MR270
+C6       1000pF, 2kV             C1206               rcl                         (29.25 13.5)          MR270
+C7       10uF                    C0603               rcl                         (13.97 49.5975)       R180
+C8       0.1uF                   C0603               rcl                         (13.97 47.9425)       R180
+C9       1uF                     C0603               rcl                         (18.2325 46.355)      R270
+C10      1uF                     C0603               rcl                         (19.685 60.6425)      R90
+C11      1uF                     C0603               rcl                         (27.6225 49.8475)     R90
+C12      1uF                     C0603               rcl                         (29.0075 59.055)      R90
+C13      4.7uF                   CT3216              rcl                         (30.48 53.34)         R90
+C14      4.7uF                   CT3216              rcl                         (30.48 67.3975)       R90
+C15      0.1uF                   C0603               rcl                         (49.2125 62.865)      MR0
+C16      0.1uF                   C0603               rcl                         (51 47.625)           MR180
+C17      0.1uF                   C0603               rcl                         (46.4025 76.2)        MR90
+C18      0.1uF                   C0603               rcl                         (51 52.07)            MR180
+C19      4.7uF                   CT3216              rcl                         (18.0975 74.295)      MR90
+C20      0.1uF                   C0603               rcl                         (27.305 68.215)       R0
+C21      0.1uF                   C0603               rcl                         (27.305 80.28)        R0
+C22      18pF                    C0603               rcl                         (59.055 75.2475)      R0
+C23      10uF                    C0603               rcl                         (71.755 69.5325)      MR270
+C24      18pF                    C0603               rcl                         (55.88 75.2475)       R180
+C25      0.1uF                   C0603               rcl                         (65.405 49.53)        MR270
+C26      0.1uF                   C0603               rcl                         (55.245 65.155)       MR0
+C27      0.1uF                   C0603               rcl                         (51 50.165)           MR0
+C28      0.1uF                   C0603               rcl                         (67.6275 70.1675)     MR90
+C29      0.1uF                   C0603               rcl                         (58.42 49.53)         MR270
+C30      0.1uF                   C0603               rcl                         (59.055 54.61)        MR90
+C31      0.1uF                   C0603               rcl                         (65.405 54.2925)      MR270
+C32      0.1uF                   C0603               rcl                         (53.975 73.3425)      MR0
+C33      0.1uF                   C0603               rcl                         (60.0075 63.1825)     MR90
+C34      0.1uF                   C0603               rcl                         (59.055 57.4675)      MR180
+C35      0.1uF                   C0603               rcl                         (60.96 54.61)         MR90
+C36      0.1uF                   C0603               rcl                         (53.975 60.96)        MR270
+C37      0.1uF                   C0603               rcl                         (59.055 60.325)       MR180
+C38      0.1uF                   C0603               rcl                         (63.8175 61.595)      MR270
+C39      0.1uF                   C0603               rcl                         (54.61 49.53)         MR270
+D1       SMAJ33A-E3/61           DIODE_DO-214AC      diode                       (16.51 61.2775)       R90
+D2       1N4148WS                SOD323-W            diode                       (73.16 72.39)         MR0
+F1       1206L050                1206L               fuse2                       (16.75 53.5)          MR180
+J1       22-05-7028-02           7395-02             con-molex                   (12.065 53.84)        R270
+J2       NE8FAV                  NE8FAV              con-neutrik_ag              (25 23)               R0
+J3       NE8FAV                  NE8FAV              con-neutrik_ag              (59 23)               R0
+J4       DF17(4.0)-20DS-0.5V(57) DF17-20DS           con-hirose                  (40 23)               MR90
+J5       DF17(4.0)-20DP-0.5V(57) DF17-20DP           con-hirose                  (40 62)               MR90
+J6       RB1-125BAG1A            WIZNET_RB1-125BAG1A con-wiznet                  (13.97 73.66)         R270
+JP1      FIDUCIAL1X2             FIDUCIAL-1X2        SparkFun                    (4 4)                 R0
+JP2      FIDUCIAL1X2             FIDUCIAL-1X2        SparkFun                    (82 4)                R0
+JP3      FIDUCIAL1X2             FIDUCIAL-1X2        SparkFun                    (4 86)                R0
+JP4      FIDUCIAL1X2             FIDUCIAL-1X2        SparkFun                    (82 86)               R0
+L1       15uH_10%                L4532M              rcl                         (16.51 53.975)        R270
+LED1     Green                   CHIP-LED0603        led                         (10.9975 46.355)      R90
+LED2     Blue                    CHIP-LED0603        led                         (40 35.5)             R90
+LED3     Blue                    CHIP-LED0603        led                         (74 35.5)             R90
+LED4     Blue                    CHIP-LED0603        led                         (40 30)               R90
+LED5     Blue                    CHIP-LED0603        led                         (74 30)               R90
+MP1      MOUNT-PAD3,0            P3,0                holes                       (75.5 23)             R0
+MP2      MOUNT-PAD3,0            P3,0                holes                       (10.5 23)             R0
+MP3      MOUNT-PAD3,0            P3,0                holes                       (75.5 62)             R0
+MP4      MOUNT-PAD3,0            P3,0                holes                       (10.5 62)             R0
+R1       51                      R0603               rcl                         (20.455 17.78)        MR90
+R2       51                      R0603               rcl                         (60.575 17.78)        MR90
+R3       1k5                     R0603               rcl                         (13.99 46.355)        R0
+R4       51                      R0603               rcl                         (63.615 17.78)        MR90
+R5       51                      R0603               rcl                         (62.095 17.78)        MR90
+R6       51                      R0603               rcl                         (23.495 17.78)        MR90
+R7       51                      R0603               rcl                         (21.975 17.78)        MR90
+R8       51                      R0603               rcl                         (59.055 17.78)        MR90
+R9       51                      R0603               rcl                         (28.055 17.78)        MR90
+R10      51                      R0603               rcl                         (56.015 17.78)        MR90
+R11      51                      R0603               rcl                         (57.535 17.78)        MR90
+R12      51                      R0603               rcl                         (25.015 17.78)        MR90
+R13      51                      R0603               rcl                         (26.535 17.78)        MR90
+R14      75                      R0603               rcl                         (54.495 17.78)        MR90
+R15      75                      R0603               rcl                         (29.575 17.78)        MR90
+R16      1k                      R0603               rcl                         (40 34)               R180
+R17      1k                      R0603               rcl                         (73.9 33.7)           R180
+R18      1k                      R0603               rcl                         (40 32)               R180
+R19      1k                      R0603               rcl                         (73.9 31.8)           R180
+R20      49.9                    R0603               rcl                         (47.9425 61.2775)     R180
+R21      49.9                    R0603               rcl                         (46.6725 46.0375)     R180
+R22      49.9                    R0603               rcl                         (47.9425 64.135)      R180
+R23      49.9                    R0603               rcl                         (46.6725 48.5775)     R180
+R24      49.9                    R0603               rcl                         (46.365 75.045)       R180
+R25      49.9                    R0603               rcl                         (46.6725 50.8)        R180
+R26      49.9                    R0603               rcl                         (46.365 77.681)       R180
+R27      49.9                    R0603               rcl                         (46.6725 53.0225)     R180
+R28      220                     R0603               rcl                         (13.6525 73.025)      MR0
+R29      220                     R0603               rcl                         (13.6525 75.2475)     MR0
+R30      49.9                    R0603               rcl                         (27.305 72.9775)      R0
+R31      49.9                    R0603               rcl                         (27.305 69.8025)      R0
+R32      49.9                    R0603               rcl                         (27.305 78.0575)      R0
+R33      49.9                    R0603               rcl                         (27.305 74.8825)      R0
+R34      10K                     R0603               rcl                         (73.66 69.5325)       MR270
+R35      3k01                    R0603               rcl                         (51.1175 59.055)      MR90
+R36      10K, DNI                R0603               rcl                         (63.4325 75.8825)     R90
+R37      10K, DNI                R0603               rcl                         (61.9125 75.8825)     R90
+R38      0, DNI                  R0603               rcl                         (62.23 70.8025)       MR0
+R39      0, DNI                  R0603               rcl                         (70.485 51.475)       MR180
+R40      0, DNI                  R0603               rcl                         (62.23 69.215)        MR0
+R41      0, DNI                  R0603               rcl                         (70.485 54.015)       MR180
+R42      0, DNI                  R0603               rcl                         (70.485 56.555)       MR180
+R43      0, DNI                  R0603               rcl                         (70.485 48.935)       MR180
+T1       H1102FNL                HXXXX               pulse                       (38.295 71.325)       R180
+T2       H1102FNL                HXXXX               pulse                       (38.53 52.7475)       R0
+TP1      TPB1,27                 B1,27               testpad                     (74.5 56.555)         R0
+TP2      TPB1,27                 B1,27               testpad                     (74.5 54.015)         R0
+TP3      TPB1,27                 B1,27               testpad                     (74.5 51.475)         R0
+TP4      TPB1,27                 B1,27               testpad                     (74.5 48.935)         R0
+TP5      TPB1,27                 B1,27               testpad                     (74.5 46.75)          R0
+U1       TC1264-3.3              SOT230P700X180-4N   microchip-6                 (23.1775 50.165)      R90
+U2       TC1264-1.8              SOT230P700X180-4N   microchip-6                 (24.4475 59.055)      R90
+U3       KSZ8995MA               PQFP-128_MQL        Micrel_By_element14_Batch_1 (61.595 59.69)        R0
+U4       AT24C02C-SSHM-B         SOIC127P600X175-8N  atmel                       (55.88 68.8975)       MR180
+X1       8Z-25.000MHZMAAJ-T      SMD2.5X2            crystal                     (57.4675 77.47)       R180
